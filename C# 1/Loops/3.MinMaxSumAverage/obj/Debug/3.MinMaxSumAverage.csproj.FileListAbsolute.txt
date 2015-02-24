@@ -1,0 +1,5 @@
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Loops\3.MinMaxSumAverage\bin\Debug\3.MinMaxSumAverage.exe.config
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Loops\3.MinMaxSumAverage\bin\Debug\3.MinMaxSumAverage.exe
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Loops\3.MinMaxSumAverage\bin\Debug\3.MinMaxSumAverage.pdb
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Loops\3.MinMaxSumAverage\obj\Debug\3.MinMaxSumAverage.exe
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Loops\3.MinMaxSumAverage\obj\Debug\3.MinMaxSumAverage.pdb

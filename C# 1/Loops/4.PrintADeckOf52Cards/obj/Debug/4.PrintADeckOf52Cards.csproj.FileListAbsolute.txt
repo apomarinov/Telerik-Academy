@@ -1,0 +1,6 @@
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Loops\4.PrintADeckOf52Cards\bin\Debug\4.PrintADeckOf52Cards.exe.config
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Loops\4.PrintADeckOf52Cards\bin\Debug\4.PrintADeckOf52Cards.exe
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Loops\4.PrintADeckOf52Cards\bin\Debug\4.PrintADeckOf52Cards.pdb
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Loops\4.PrintADeckOf52Cards\obj\Debug\4.PrintADeckOf52Cards.csprojResolveAssemblyReference.cache
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Loops\4.PrintADeckOf52Cards\obj\Debug\4.PrintADeckOf52Cards.exe
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Loops\4.PrintADeckOf52Cards\obj\Debug\4.PrintADeckOf52Cards.pdb

@@ -1,0 +1,5 @@
+\\vmware-host\Shared Folders\Desktop\Loops\15. Hexadecimal to Decimal Number\bin\Debug\_15.Hexadecimal_to_Decimal_Number.exe.config
+\\vmware-host\Shared Folders\Desktop\Loops\15. Hexadecimal to Decimal Number\bin\Debug\_15.Hexadecimal_to_Decimal_Number.exe
+\\vmware-host\Shared Folders\Desktop\Loops\15. Hexadecimal to Decimal Number\bin\Debug\_15.Hexadecimal_to_Decimal_Number.pdb
+\\vmware-host\Shared Folders\Desktop\Loops\15. Hexadecimal to Decimal Number\obj\Debug\_15.Hexadecimal_to_Decimal_Number.exe
+\\vmware-host\Shared Folders\Desktop\Loops\15. Hexadecimal to Decimal Number\obj\Debug\_15.Hexadecimal_to_Decimal_Number.pdb

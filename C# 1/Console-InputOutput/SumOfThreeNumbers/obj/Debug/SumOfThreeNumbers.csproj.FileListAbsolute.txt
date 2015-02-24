@@ -1,0 +1,6 @@
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Console-InputOutput\SumOfThreeNumbers\bin\Debug\SumOfThreeNumbers.exe.config
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Console-InputOutput\SumOfThreeNumbers\obj\Debug\SumOfThreeNumbers.csprojResolveAssemblyReference.cache
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Console-InputOutput\SumOfThreeNumbers\bin\Debug\SumOfThreeNumbers.exe
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Console-InputOutput\SumOfThreeNumbers\bin\Debug\SumOfThreeNumbers.pdb
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Console-InputOutput\SumOfThreeNumbers\obj\Debug\SumOfThreeNumbers.exe
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Console-InputOutput\SumOfThreeNumbers\obj\Debug\SumOfThreeNumbers.pdb

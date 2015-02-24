@@ -1,0 +1,6 @@
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Loops\10. OddAndEvenProduct\bin\Debug\_10.OddAndEvenProduct.exe.config
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Loops\10. OddAndEvenProduct\bin\Debug\_10.OddAndEvenProduct.exe
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Loops\10. OddAndEvenProduct\bin\Debug\_10.OddAndEvenProduct.pdb
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Loops\10. OddAndEvenProduct\obj\Debug\10. OddAndEvenProduct.csprojResolveAssemblyReference.cache
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Loops\10. OddAndEvenProduct\obj\Debug\_10.OddAndEvenProduct.exe
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Loops\10. OddAndEvenProduct\obj\Debug\_10.OddAndEvenProduct.pdb

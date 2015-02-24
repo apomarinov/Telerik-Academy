@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.FillTheMatrix", "1.FillTheMatrix\1.FillTheMatrix.csproj", "{18320A91-6131-49B5-A28F-C23ECFB49D9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.MaximalSum", "2.MaximalSum\2.MaximalSum.csproj", "{0BFFD062-3723-478D-9012-BE321EAE975B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.SequenceNMatrix", "3.SequenceNMatrix\3.SequenceNMatrix.csproj", "{3ABC604D-B1C7-4A7B-8FFE-07A2F6C57A9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.BinarySearch", "4.BinarySearch\4.BinarySearch.csproj", "{0F376A88-6ED3-4873-AC00-3808F08D3E1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.SortByStringLength", "5.SortByStringLength\5.SortByStringLength.csproj", "{DC558B8E-FECE-4FA4-B22B-316DB8EA231B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18320A91-6131-49B5-A28F-C23ECFB49D9E}.Debug|x86.ActiveCfg = Debug|x86
+		{18320A91-6131-49B5-A28F-C23ECFB49D9E}.Debug|x86.Build.0 = Debug|x86
+		{18320A91-6131-49B5-A28F-C23ECFB49D9E}.Release|x86.ActiveCfg = Release|x86
+		{18320A91-6131-49B5-A28F-C23ECFB49D9E}.Release|x86.Build.0 = Release|x86
+		{0BFFD062-3723-478D-9012-BE321EAE975B}.Debug|x86.ActiveCfg = Debug|x86
+		{0BFFD062-3723-478D-9012-BE321EAE975B}.Debug|x86.Build.0 = Debug|x86
+		{0BFFD062-3723-478D-9012-BE321EAE975B}.Release|x86.ActiveCfg = Release|x86
+		{0BFFD062-3723-478D-9012-BE321EAE975B}.Release|x86.Build.0 = Release|x86
+		{3ABC604D-B1C7-4A7B-8FFE-07A2F6C57A9F}.Debug|x86.ActiveCfg = Debug|x86
+		{3ABC604D-B1C7-4A7B-8FFE-07A2F6C57A9F}.Debug|x86.Build.0 = Debug|x86
+		{3ABC604D-B1C7-4A7B-8FFE-07A2F6C57A9F}.Release|x86.ActiveCfg = Release|x86
+		{3ABC604D-B1C7-4A7B-8FFE-07A2F6C57A9F}.Release|x86.Build.0 = Release|x86
+		{0F376A88-6ED3-4873-AC00-3808F08D3E1A}.Debug|x86.ActiveCfg = Debug|x86
+		{0F376A88-6ED3-4873-AC00-3808F08D3E1A}.Debug|x86.Build.0 = Debug|x86
+		{0F376A88-6ED3-4873-AC00-3808F08D3E1A}.Release|x86.ActiveCfg = Release|x86
+		{0F376A88-6ED3-4873-AC00-3808F08D3E1A}.Release|x86.Build.0 = Release|x86
+		{DC558B8E-FECE-4FA4-B22B-316DB8EA231B}.Debug|x86.ActiveCfg = Debug|x86
+		{DC558B8E-FECE-4FA4-B22B-316DB8EA231B}.Debug|x86.Build.0 = Debug|x86
+		{DC558B8E-FECE-4FA4-B22B-316DB8EA231B}.Release|x86.ActiveCfg = Release|x86
+		{DC558B8E-FECE-4FA4-B22B-316DB8EA231B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = 5.SortByStringLength\5.SortByStringLength.csproj
+	EndGlobalSection
+EndGlobal

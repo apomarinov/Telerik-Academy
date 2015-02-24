@@ -1,0 +1,5 @@
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Operators and Expressions\FourDigitNumber\bin\Debug\FourDigitNumber.exe.config
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Operators and Expressions\FourDigitNumber\bin\Debug\FourDigitNumber.exe
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Operators and Expressions\FourDigitNumber\bin\Debug\FourDigitNumber.pdb
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Operators and Expressions\FourDigitNumber\obj\Debug\FourDigitNumber.exe
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Operators and Expressions\FourDigitNumber\obj\Debug\FourDigitNumber.pdb

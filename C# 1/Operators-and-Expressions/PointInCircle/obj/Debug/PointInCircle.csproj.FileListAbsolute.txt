@@ -1,0 +1,5 @@
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Operators and Expressions\PointInCircle\bin\Debug\PointInCircle.exe.config
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Operators and Expressions\PointInCircle\bin\Debug\PointInCircle.exe
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Operators and Expressions\PointInCircle\bin\Debug\PointInCircle.pdb
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Operators and Expressions\PointInCircle\obj\Debug\PointInCircle.exe
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Operators and Expressions\PointInCircle\obj\Debug\PointInCircle.pdb

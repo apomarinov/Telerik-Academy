@@ -1,0 +1,3 @@
+1. Visual Studio - Used to develop software and applications for Microsoft`s platforms.
+2. Eclipse/Netbeans - Used for Java and Web development.
+3. xCode - Used to develop software and applications for Apple`s platforms.

@@ -1,0 +1,8 @@
+1. C - Provides the base for other languanges like C#, Java, JavaScript and Python. Mostly used for implementing operating systems and embedded applications.
+2. C++ - Designed to enhace the C language. Used for developing system and application software, server and client applications and vide games.
+3. C# - Developed by Microsoft, C# is object oriented and combines principles from C and C++. Used to build software for Microsoft and Windows platforms.
+4. Objective-C - Object oriented language used by Apple`s operating system. Used for building software for OS X and iOS.
+5. Java - Class based, object oriented language. Designed to run on multiple platforms it's used in enterprise software, web content, games and mobile apps, also in the Android mobile OS.
+5. PHP - A server side scripting language used in web development. Can be used in object oriented and in procedural style.
+6. Python - A high-level, server-side language for websites. It's syntax is fairly compact compared to other languages.
+7. JavaScript - A client-side language for web development across multiple browsers. Used for developing interactive or animated web apps. Also in game development and desktop applications.

@@ -1,0 +1,6 @@
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Operators and Expressions\ModifyBitAtPosition\bin\Debug\ModifyBitAtPosition.exe.config
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Operators and Expressions\ModifyBitAtPosition\bin\Debug\ModifyBitAtPosition.exe
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Operators and Expressions\ModifyBitAtPosition\bin\Debug\ModifyBitAtPosition.pdb
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Operators and Expressions\ModifyBitAtPosition\obj\Debug\ModifyBitAtPosition.exe
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Operators and Expressions\ModifyBitAtPosition\obj\Debug\ModifyBitAtPosition.pdb
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Operators and Expressions\ModifyBitAtPosition\obj\Debug\ModifyBitAtPosition.csprojResolveAssemblyReference.cache

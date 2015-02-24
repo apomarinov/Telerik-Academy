@@ -1,0 +1,6 @@
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Conditional-Statements\BonusScore\bin\Debug\BonusScore.exe.config
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Conditional-Statements\BonusScore\bin\Debug\BonusScore.exe
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Conditional-Statements\BonusScore\bin\Debug\BonusScore.pdb
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Conditional-Statements\BonusScore\obj\Debug\BonusScore.csprojResolveAssemblyReference.cache
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Conditional-Statements\BonusScore\obj\Debug\BonusScore.exe
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Conditional-Statements\BonusScore\obj\Debug\BonusScore.pdb

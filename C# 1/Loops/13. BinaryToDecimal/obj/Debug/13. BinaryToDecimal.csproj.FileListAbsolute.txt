@@ -1,0 +1,6 @@
+\\vmware-host\Shared Folders\Desktop\Loops\13. BinaryToDecimal\bin\Debug\_13.BinaryToDecimal.exe.config
+\\vmware-host\Shared Folders\Desktop\Loops\13. BinaryToDecimal\bin\Debug\_13.BinaryToDecimal.exe
+\\vmware-host\Shared Folders\Desktop\Loops\13. BinaryToDecimal\bin\Debug\_13.BinaryToDecimal.pdb
+\\vmware-host\Shared Folders\Desktop\Loops\13. BinaryToDecimal\obj\Debug\13. BinaryToDecimal.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Desktop\Loops\13. BinaryToDecimal\obj\Debug\_13.BinaryToDecimal.exe
+\\vmware-host\Shared Folders\Desktop\Loops\13. BinaryToDecimal\obj\Debug\_13.BinaryToDecimal.pdb

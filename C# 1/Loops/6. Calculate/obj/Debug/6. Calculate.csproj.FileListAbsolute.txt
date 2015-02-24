@@ -1,0 +1,6 @@
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Loops\6. Calculate\bin\Debug\_6.Calculate.exe.config
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Loops\6. Calculate\bin\Debug\_6.Calculate.exe
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Loops\6. Calculate\bin\Debug\_6.Calculate.pdb
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Loops\6. Calculate\obj\Debug\6. Calculate.csprojResolveAssemblyReference.cache
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Loops\6. Calculate\obj\Debug\_6.Calculate.exe
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Loops\6. Calculate\obj\Debug\_6.Calculate.pdb

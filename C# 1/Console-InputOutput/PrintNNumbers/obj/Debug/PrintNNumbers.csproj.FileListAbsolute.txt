@@ -1,0 +1,5 @@
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Console-InputOutput\PrintNNumbers\bin\Debug\PrintNNumbers.exe.config
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Console-InputOutput\PrintNNumbers\bin\Debug\PrintNNumbers.exe
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Console-InputOutput\PrintNNumbers\bin\Debug\PrintNNumbers.pdb
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Console-InputOutput\PrintNNumbers\obj\Debug\PrintNNumbers.exe
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Console-InputOutput\PrintNNumbers\obj\Debug\PrintNNumbers.pdb
