@@ -1,0 +1,6 @@
+C:\Users\creative02\Desktop\Strings and Text Processing\2. Reverse string\bin\Debug\_2.Reverse_string.exe.config
+C:\Users\creative02\Desktop\Strings and Text Processing\2. Reverse string\bin\Debug\_2.Reverse_string.exe
+C:\Users\creative02\Desktop\Strings and Text Processing\2. Reverse string\bin\Debug\_2.Reverse_string.pdb
+C:\Users\creative02\Desktop\Strings and Text Processing\2. Reverse string\obj\Debug\02. Reverse string.csprojResolveAssemblyReference.cache
+C:\Users\creative02\Desktop\Strings and Text Processing\2. Reverse string\obj\Debug\_2.Reverse_string.exe
+C:\Users\creative02\Desktop\Strings and Text Processing\2. Reverse string\obj\Debug\_2.Reverse_string.pdb

@@ -1,0 +1,5 @@
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\1. Odd lines\bin\Debug\_1.Odd_lines.exe.config
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\1. Odd lines\obj\Debug\_1.Odd_lines.exe
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\1. Odd lines\obj\Debug\_1.Odd_lines.pdb
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\1. Odd lines\bin\Debug\_1.Odd_lines.exe
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\1. Odd lines\bin\Debug\_1.Odd_lines.pdb

@@ -1,0 +1,6 @@
+c:\users\creative02\documents\visual studio 2013\Projects\Exception Handling\1. Square root\bin\Debug\_1.Square_root.exe.config
+c:\users\creative02\documents\visual studio 2013\Projects\Exception Handling\1. Square root\bin\Debug\_1.Square_root.exe
+c:\users\creative02\documents\visual studio 2013\Projects\Exception Handling\1. Square root\bin\Debug\_1.Square_root.pdb
+c:\users\creative02\documents\visual studio 2013\Projects\Exception Handling\1. Square root\obj\Debug\1. Square root.csprojResolveAssemblyReference.cache
+c:\users\creative02\documents\visual studio 2013\Projects\Exception Handling\1. Square root\obj\Debug\_1.Square_root.exe
+c:\users\creative02\documents\visual studio 2013\Projects\Exception Handling\1. Square root\obj\Debug\_1.Square_root.pdb

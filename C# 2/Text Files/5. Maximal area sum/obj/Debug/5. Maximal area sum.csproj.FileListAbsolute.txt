@@ -1,0 +1,5 @@
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\5. Maximal area sum\bin\Debug\_5.Maximal_area_sum.exe.config
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\5. Maximal area sum\bin\Debug\_5.Maximal_area_sum.exe
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\5. Maximal area sum\bin\Debug\_5.Maximal_area_sum.pdb
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\5. Maximal area sum\obj\Debug\_5.Maximal_area_sum.exe
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\5. Maximal area sum\obj\Debug\_5.Maximal_area_sum.pdb

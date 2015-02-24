@@ -1,0 +1,5 @@
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\12. Remove words\bin\Debug\_12.Remove_words.exe.config
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\12. Remove words\bin\Debug\_12.Remove_words.exe
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\12. Remove words\bin\Debug\_12.Remove_words.pdb
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\12. Remove words\obj\Debug\_12.Remove_words.exe
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\12. Remove words\obj\Debug\_12.Remove_words.pdb

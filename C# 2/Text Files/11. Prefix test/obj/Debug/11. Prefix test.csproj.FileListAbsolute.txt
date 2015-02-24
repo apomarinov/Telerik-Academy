@@ -1,0 +1,5 @@
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\11. Prefix test\bin\Debug\_11.Prefix_test.exe.config
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\11. Prefix test\bin\Debug\_11.Prefix_test.exe
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\11. Prefix test\bin\Debug\_11.Prefix_test.pdb
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\11. Prefix test\obj\Debug\_11.Prefix_test.exe
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\11. Prefix test\obj\Debug\_11.Prefix_test.pdb

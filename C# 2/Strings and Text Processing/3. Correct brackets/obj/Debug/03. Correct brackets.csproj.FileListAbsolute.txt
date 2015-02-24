@@ -1,0 +1,5 @@
+C:\Users\creative02\Desktop\Strings and Text Processing\3. Correct brackets\bin\Debug\_3.Correct_brackets.exe.config
+C:\Users\creative02\Desktop\Strings and Text Processing\3. Correct brackets\bin\Debug\_3.Correct_brackets.exe
+C:\Users\creative02\Desktop\Strings and Text Processing\3. Correct brackets\bin\Debug\_3.Correct_brackets.pdb
+C:\Users\creative02\Desktop\Strings and Text Processing\3. Correct brackets\obj\Debug\_3.Correct_brackets.exe
+C:\Users\creative02\Desktop\Strings and Text Processing\3. Correct brackets\obj\Debug\_3.Correct_brackets.pdb

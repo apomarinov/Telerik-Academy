@@ -1,0 +1,5 @@
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\6. Save sorted names\bin\Debug\_6.Save_sorted_names.exe.config
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\6. Save sorted names\obj\Debug\_6.Save_sorted_names.exe
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\6. Save sorted names\obj\Debug\_6.Save_sorted_names.pdb
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\6. Save sorted names\bin\Debug\_6.Save_sorted_names.exe
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\6. Save sorted names\bin\Debug\_6.Save_sorted_names.pdb

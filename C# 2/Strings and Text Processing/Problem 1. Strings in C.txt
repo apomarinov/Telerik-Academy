@@ -1,0 +1,16 @@
+The string in C# is a value type that consists of multiple character literals. The string variables and are presented using double quotes.
+Typical for the string data type is that it is immutable. Meaning its passed by value and not by reference.
+Most important String methods include:
+Length - the number of characters in the string (excluding the EOF character)
+Clone - Returns a reference to this instance of String.
+Compare - compares strings ignoring or not the case
+Concat - concatenates strings
+Format - formatting with variables
+IndexOf - the index of a char symbol in the string
+ToCharArray - returns an array with the symbols
+ToLower - makes the string lowercase
+ToUpper -...
+Trim - removes leading and trailing whitespaces
+Substring - gets a substring from the string
+Split - split a string by a character
+Replace - replace a symbol or substring with another

@@ -1,0 +1,5 @@
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Exception Handling\3. Read file contents\bin\Debug\_3.Read_file_contents.exe.config
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Exception Handling\3. Read file contents\bin\Debug\_3.Read_file_contents.exe
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Exception Handling\3. Read file contents\bin\Debug\_3.Read_file_contents.pdb
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Exception Handling\3. Read file contents\obj\Debug\_3.Read_file_contents.exe
+C:\Users\creative02\Documents\Visual Studio 2013\Projects\Exception Handling\3. Read file contents\obj\Debug\_3.Read_file_contents.pdb

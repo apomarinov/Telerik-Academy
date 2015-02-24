@@ -1,0 +1,5 @@
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\2. Concatenate text files\bin\Debug\_2.Concatenate_text_files.exe.config
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\2. Concatenate text files\bin\Debug\_2.Concatenate_text_files.exe
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\2. Concatenate text files\bin\Debug\_2.Concatenate_text_files.pdb
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\2. Concatenate text files\obj\Debug\_2.Concatenate_text_files.exe
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\2. Concatenate text files\obj\Debug\_2.Concatenate_text_files.pdb

@@ -1,0 +1,5 @@
+\\vmware-host\Shared Folders\Desktop\Arrays copy\1.AllocateArray\bin\Debug\1.AllocateArray.exe
+\\vmware-host\Shared Folders\Desktop\Arrays copy\1.AllocateArray\bin\Debug\1.AllocateArray.pdb
+\\vmware-host\Shared Folders\Desktop\Arrays copy\1.AllocateArray\obj\x86\Debug\01.AllocateArray.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Desktop\Arrays copy\1.AllocateArray\obj\x86\Debug\1.AllocateArray.exe
+\\vmware-host\Shared Folders\Desktop\Arrays copy\1.AllocateArray\obj\x86\Debug\1.AllocateArray.pdb

@@ -1,0 +1,6 @@
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\10. Extract text from XML\bin\Debug\_10.Extract_text_from_XML.exe.config
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\10. Extract text from XML\bin\Debug\_10.Extract_text_from_XML.exe
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\10. Extract text from XML\bin\Debug\_10.Extract_text_from_XML.pdb
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\10. Extract text from XML\obj\Debug\10. Extract text from XML.csprojResolveAssemblyReference.cache
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\10. Extract text from XML\obj\Debug\_10.Extract_text_from_XML.exe
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\10. Extract text from XML\obj\Debug\_10.Extract_text_from_XML.pdb

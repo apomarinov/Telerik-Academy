@@ -1,0 +1,5 @@
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\3. Line numbers\bin\Debug\_3.Line_numbers.exe.config
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\3. Line numbers\obj\Debug\_3.Line_numbers.exe
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\3. Line numbers\obj\Debug\_3.Line_numbers.pdb
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\3. Line numbers\bin\Debug\_3.Line_numbers.exe
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\3. Line numbers\bin\Debug\_3.Line_numbers.pdb

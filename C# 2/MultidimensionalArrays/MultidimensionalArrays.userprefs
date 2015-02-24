@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="5.SortByStringLength/Main.cs">
+    <Files>
+      <File FileName="MatrixTools.cs" Line="35" Column="28" />
+      <File FileName="2.MaximalSum/Main.cs" Line="56" Column="1" />
+      <File FileName="3.SequenceNMatrix/Main.cs" Line="18" Column="12" />
+      <File FileName="4.BinarySearch/Main.cs" Line="36" Column="31" />
+      <File FileName="5.SortByStringLength/Main.cs" Line="22" Column="28" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

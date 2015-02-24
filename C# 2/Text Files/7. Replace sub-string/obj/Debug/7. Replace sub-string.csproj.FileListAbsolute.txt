@@ -1,0 +1,6 @@
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\7. Replace sub-string\bin\Debug\_7.Replace_sub_string.exe.config
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\7. Replace sub-string\obj\Debug\7. Replace sub-string.csprojResolveAssemblyReference.cache
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\7. Replace sub-string\bin\Debug\_7.Replace_sub_string.exe
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\7. Replace sub-string\bin\Debug\_7.Replace_sub_string.pdb
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\7. Replace sub-string\obj\Debug\_7.Replace_sub_string.exe
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\7. Replace sub-string\obj\Debug\_7.Replace_sub_string.pdb

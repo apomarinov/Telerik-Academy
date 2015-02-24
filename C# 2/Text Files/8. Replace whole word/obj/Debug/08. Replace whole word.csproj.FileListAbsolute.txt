@@ -1,0 +1,3 @@
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\8. Replace whole word\bin\Debug\_8.Replace_whole_word.exe.config
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\8. Replace whole word\obj\Debug\_8.Replace_whole_word.exe
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\8. Replace whole word\obj\Debug\_8.Replace_whole_word.pdb

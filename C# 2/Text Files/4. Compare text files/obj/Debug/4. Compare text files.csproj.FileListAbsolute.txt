@@ -1,0 +1,5 @@
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\4. Compare text files\bin\Debug\_4.Compare_text_files.exe.config
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\4. Compare text files\bin\Debug\_4.Compare_text_files.exe
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\4. Compare text files\bin\Debug\_4.Compare_text_files.pdb
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\4. Compare text files\obj\Debug\_4.Compare_text_files.exe
+c:\users\creative02\documents\visual studio 2013\Projects\Text Files\4. Compare text files\obj\Debug\_4.Compare_text_files.pdb
