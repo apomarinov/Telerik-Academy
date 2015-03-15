@@ -1,0 +1,12 @@
+=== Path: path1 ===
+12 55 509
+1 87 22
+987 873 465
+=== End Path: path1 ===
+
+=== Path: path2 ===
+1 5 9
+1 7 2
+9 3 6
+=== End Path: path2 ===
+

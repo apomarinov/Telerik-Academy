@@ -29,7 +29,7 @@ namespace Points3D
 		
 		public override string ToString ()
 		{
-			return string.Format ("[Point3D: X={0}, Y={1}, Z={2}]", X, Y, Z);
+			return string.Format ("({0}, {1}, {2})", X, Y, Z);
 		}
 	}
 	
@@ -44,6 +44,7 @@ namespace Points3D
 	public class Path
 	{
 		private List<Point3D> points;
+		public string Name;
 		
 		public List<Point3D> Points {
 			get {
@@ -51,9 +52,10 @@ namespace Points3D
 			}
 		}
 		
-		public Path ()
+		public Path (string name)
 		{
 			this.points = new List<Point3D> ();
+			this.Name = name;
 		}
 		
 		
@@ -61,38 +63,90 @@ namespace Points3D
 		{
 			this.points.Add (p);
 		}
+		
+		public override string ToString ()
+		{
+			StringBuilder pathSB = new StringBuilder ();
+			pathSB.AppendFormat ("Path: {0}\n", this.Name);
+			
+			for (int i = 0; i < this.points.Count; i++) {
+				pathSB.AppendFormat ("P{0}: {1}\n", i + 1, this.points [i].ToString ());
+			}
+			
+			pathSB.AppendFormat ("End:{0}\n", this.Name);
+			return pathSB.ToString ();
+		}
+		
+	}
+	
+	public enum PathStorageOptions
+	{
+		Erase,
+		Append
 	}
 	
 	public static class PathStorage
 	{
-		public static void SavePath (Path path, string pathName)
+		// do not change the format
+		private const string startPathFormat = "=== Path: {0} ===\n";
+		private const string endPathFormat = "=== End Path: {0} ===\n\n";
+		private const string pointFormat = "{0} {1} {2}\n";
+		private const string savedPathsFile = "../../saved_paths.txt";
+		
+		public static bool SavePath (Path path, PathStorageOptions op = PathStorageOptions.Append)
 		{
-			StringBuilder sb = new StringBuilder ();
-			
-			sb.AppendFormat ("=== Path: {0} ===\n", pathName);
-			foreach (Point3D p in path.Points) {
-				sb.AppendFormat ("{0} {1} {2}\n", p.X, p.Y, p.Z);
+			string currentSavedPaths = "";
+			if (op == PathStorageOptions.Append && File.Exists (savedPathsFile)) {
+				currentSavedPaths = File.ReadAllText (savedPathsFile);
 			}
-			sb.AppendFormat ("=== End Path: {0} ===\n\n", pathName);
 			
-			File.WriteAllText ("../../saved_path_" + pathName + ".txt", sb.ToString ());
+			StringBuilder savePath = new StringBuilder ();
+			
+			savePath.AppendFormat (startPathFormat, path.Name);
+			foreach (Point3D p in path.Points) {
+				savePath.AppendFormat (pointFormat, p.X, p.Y, p.Z);
+			}
+			savePath.AppendFormat (endPathFormat, path.Name);
+			
+			File.WriteAllText (savedPathsFile, currentSavedPaths + savePath.ToString ());
+			
+			return true;
 		}
 		
-//		public static Path LoadPath (string filePath, string pathName)
-//		{
-//			if (File.Exists (filePath)) {
-//				string text = File.ReadAllText (filePath);
-//				string pathText = Regex.Match (text, pathName + " ===(.*?(\n))+.*?===").Value.Split (new string[]{"==="}, StringSplitOptions.RemoveEmptyEntries) [1];
-//			}
-//		}
+		public static Path LoadPath (string pathName)
+		{
+			string text = File.ReadAllText (savedPathsFile);
+			Match pathMatch = Regex.Match (text, pathName + " ===(.*?(\n))+.*?===");
+			
+			if (!pathMatch.Success) {
+				return null;
+			}
+			
+			string pathText = pathMatch.Value.Split (new string[]{"==="}, StringSplitOptions.RemoveEmptyEntries) [1];
+			string[] pointsInLines = pathText.Trim ().Split ('\n');	
+			
+			Path pathFromFile = new Path (pathName);
+			
+			string[] pointsFromStr;
+			int pX, pY, pZ;
+			foreach (string pointsStr  in pointsInLines) {
+				pointsFromStr = pointsStr.Split (' ');
+				
+				if (!int.TryParse (pointsFromStr [0], out pX)) {
+					pX = 0;
+				}
+				if (!int.TryParse (pointsFromStr [1], out pY)) {
+					pY = 0;
+				}
+				if (!int.TryParse (pointsFromStr [2], out pZ)) {
+					pZ = 0;
+				}
+				pathFromFile.AddPoint (new Point3D (pX, pY, pZ));
+			}
+			
+			return pathFromFile;
+		}
 	}
 }
-
-//string file2 = System.IO.File.ReadAllText(@"../../input2.txt");
-//System.IO.File.WriteAllText(@"../../output.txt", file1 + file2);
-
-
-
-
 
 

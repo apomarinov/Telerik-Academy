@@ -7,7 +7,7 @@ class GSMTest
 	static void Main ()
 	{
 		// Since all the problems are about creating the GSM class, I completed them as a single problem.
-		// The classes are in the HomeworkClasses.cs file, in the Solution's root directory and in the Solution Items in Visual Studio
+		// The classes are in the GSMModules.cs and Calls.cs files, in the Solution's root directory and in the Solution Items in Visual Studio
 		GSM iPhone = new GSM ("Apple", "iPhone", "6");
 		
 		Console.WriteLine ("GSM, minimum properties: \n=======");

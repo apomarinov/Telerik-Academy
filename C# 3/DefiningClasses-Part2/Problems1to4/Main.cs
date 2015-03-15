@@ -10,15 +10,36 @@ class MainClass
 		Point3D p1 = Point3D.Center;
 		Point3D p2 = new Point3D (5, 5, 5);
 		
-		Console.WriteLine (p1.ToString ());
-		Console.WriteLine (p2.ToString ());
+		Console.WriteLine ("Point 1: " + p1.ToString ());
+		Console.WriteLine ("Point 2: " + p2.ToString ());
 		Console.WriteLine ("Distance between points: " + Vector3.Distance (p1, p2));
 		
-		String text = "98 gf98h7d9 fg87h89d7gh97 === Path: apo ===\n1 2 3\n4 5 6\n6 7 8\n=== End Path: apo ===9 sg7d6fg876 765g75 75sfgh sfh";
+
+		Path path1 = new Path ("path1");
+		path1.AddPoint (new Point3D (12, 55, 509));
+		path1.AddPoint (new Point3D (1, 87, 22));
+		path1.AddPoint (new Point3D (987, 873, 465));
 		
-		string pathName = "apo";
-		string pathText = Regex.Match (text, pathName + " ===(.*?(\n))+.*?===").Value.Split (new string[]{"==="}, StringSplitOptions.RemoveEmptyEntries) [1];
-		string[] pointsInLines = pathText.Trim ().Split('\n');
-		Path
+		Path path2 = new Path ("path2");
+		path2.AddPoint (new Point3D (1, 5, 9));
+		path2.AddPoint (new Point3D (1, 7, 2));
+		path2.AddPoint (new Point3D (9, 3, 6));
+		
+		if (PathStorage.SavePath (path1, PathStorageOptions.Erase)) {
+			Console.WriteLine ("\nSaved path: " + path1.Name);
+		}
+		
+		if (PathStorage.SavePath (path2, PathStorageOptions.Append)) {
+			Console.WriteLine ("Saved path: " + path2.Name);
+		}
+		
+		Path loadedPath1 = PathStorage.LoadPath ("path1");
+		Path loadedPath2 = PathStorage.LoadPath ("path2");
+		
+		if (loadedPath1 != null && loadedPath2 != null) {
+			Console.WriteLine ("\nLoaded both paths:");
+		}
+		Console.WriteLine (loadedPath1.ToString ());
+		Console.WriteLine (loadedPath2.ToString ());
 	}
 }

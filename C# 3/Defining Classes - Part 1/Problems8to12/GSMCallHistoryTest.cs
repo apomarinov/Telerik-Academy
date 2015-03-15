@@ -6,7 +6,7 @@ class GSMCallHistoryTest
 {
 	public static void Main ()
 	{
-		// Again, you can find the classes for the whole homework in the HomeworkClasses.cs file, in the Solution's root directory and in the Solution Items in Visual Studio
+		// Again, you can find the classes for the whole homework in the GSMModules.cs and Calls.cs files, in the Solution's root directory and in the Solution Items in Visual Studio
 		
 		GSM phone = new GSM ("Nokia", "Tuhla", "3310");
 		Call call1 = new Call (new DateTime (2015, 3, 14, 12, 12, 10), "048 155 22", 69.69);
