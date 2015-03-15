@@ -36,10 +36,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs" />
-    <Compile Include="..\HomeworkClasses.cs">
-      <Link>HomeworkClasses.cs</Link>
-    </Compile>
     <Compile Include="GSMCallHistoryTest.cs" />
+    <Compile Include="..\Calls.cs">
+      <Link>Calls.cs</Link>
+    </Compile>
+    <Compile Include="..\GSMModules.cs">
+      <Link>GSMModules.cs</Link>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -4,8 +4,15 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problems1to7", "Problems1to7\Problems1to7.csproj", "{041AC13A-336D-4415-BF59-ACBF8FDE23D6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1A5510AA-1AD4-4AE7-8986-985C3D681676}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Calls", "Calls", "{F6C6E414-9E6F-4B71-9CA0-124355C3C66A}"
 	ProjectSection(SolutionItems) = preProject
-		HomeworkClasses.cs = HomeworkClasses.cs
+		Calls.cs = Calls.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GSMModules", "GSMModules", "{EBD38C66-58DD-4AA6-A87F-1A7F3D31B2F1}"
+	ProjectSection(SolutionItems) = preProject
+		GSMModules.cs = GSMModules.cs
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problems8to12", "Problems8to12\Problems8to12.csproj", "{0AD2E08D-8ECC-4889-AAA2-3130E4326A67}"
@@ -26,6 +33,8 @@ Global
 		{0AD2E08D-8ECC-4889-AAA2-3130E4326A67}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{F6C6E414-9E6F-4B71-9CA0-124355C3C66A} = {1A5510AA-1AD4-4AE7-8986-985C3D681676}
+		{EBD38C66-58DD-4AA6-A87F-1A7F3D31B2F1} = {1A5510AA-1AD4-4AE7-8986-985C3D681676}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Problems8to12\Problems8to12.csproj
