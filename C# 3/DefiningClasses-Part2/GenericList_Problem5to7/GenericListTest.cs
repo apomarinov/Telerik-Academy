@@ -1,5 +1,7 @@
 using System;
 using CustomGenerics;
+using Microsoft.CSharp.RuntimeBinder;
+
 
 class GenericListTest
 {
@@ -32,6 +34,6 @@ class GenericListTest
 		Console.WriteLine ("Index of 100: " + list.IndexOf (100));
 		
 		list.Clear ();
-		Console.WriteLine ("After clearing: Count - {0}, Capacity = {1}", list.Count, list.Capacity);
+		Console.WriteLine ("After clearing: Count = {0}, Capacity = {1}", list.Count, list.Capacity);
 	}
 }

@@ -1,0 +1,4 @@
+C:\Users\creative02\Documents\Telerik-Academy\C# 3\DefiningClasses-Part2\Problems1to4\bin\Debug\Problems1to4.exe
+C:\Users\creative02\Documents\Telerik-Academy\C# 3\DefiningClasses-Part2\Problems1to4\bin\Debug\Problems1to4.pdb
+C:\Users\creative02\Documents\Telerik-Academy\C# 3\DefiningClasses-Part2\Problems1to4\obj\x86\Debug\Problems1to4.exe
+C:\Users\creative02\Documents\Telerik-Academy\C# 3\DefiningClasses-Part2\Problems1to4\obj\x86\Debug\Problems1to4.pdb

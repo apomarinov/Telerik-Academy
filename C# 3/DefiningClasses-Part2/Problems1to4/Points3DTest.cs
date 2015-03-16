@@ -3,7 +3,7 @@ using Points3D;
 using System.Text.RegularExpressions;
 
 
-class MainClass
+class Points3DTest
 {
 	public static void Main ()
 	{
@@ -14,7 +14,6 @@ class MainClass
 		Console.WriteLine ("Point 2: " + p2.ToString ());
 		Console.WriteLine ("Distance between points: " + Vector3.Distance (p1, p2));
 		
-
 		Path path1 = new Path ("path1");
 		path1.AddPoint (new Point3D (12, 55, 509));
 		path1.AddPoint (new Point3D (1, 87, 22));
@@ -26,11 +25,11 @@ class MainClass
 		path2.AddPoint (new Point3D (9, 3, 6));
 		
 		if (PathStorage.SavePath (path1, PathStorageOptions.Erase)) {
-			Console.WriteLine ("\nSaved path: " + path1.Name);
+			Console.WriteLine ("\nSaved " + path1.Name);
 		}
 		
 		if (PathStorage.SavePath (path2, PathStorageOptions.Append)) {
-			Console.WriteLine ("Saved path: " + path2.Name);
+			Console.WriteLine ("Saved " + path2.Name);
 		}
 		
 		Path loadedPath1 = PathStorage.LoadPath ("path1");
@@ -38,8 +37,13 @@ class MainClass
 		
 		if (loadedPath1 != null && loadedPath2 != null) {
 			Console.WriteLine ("\nLoaded both paths:");
-		}
-		Console.WriteLine (loadedPath1.ToString ());
-		Console.WriteLine (loadedPath2.ToString ());
+
+            Console.WriteLine(loadedPath1.ToString());
+            Console.WriteLine(loadedPath2.ToString());
+        }
+        else
+        {
+            Console.WriteLine("\nCouldn't load paths.");
+        }
 	}
 }

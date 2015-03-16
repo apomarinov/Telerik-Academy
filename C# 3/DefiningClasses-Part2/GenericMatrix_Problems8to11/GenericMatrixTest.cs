@@ -1,7 +1,7 @@
 using System;
-using Microsoft.CSharp.RuntimeBinder;
 using CustomGenerics;
 
+[CustomVersion(1.22)]
 class GenericMatrixTest
 {
 	public static void Main ()
@@ -37,7 +37,34 @@ class GenericMatrixTest
 		Console.WriteLine ("Matrix 3:");
 		Console.WriteLine (m3.ToString ());
 		
-		Console.WriteLine ("m1 * m2 = ");
+		Console.WriteLine ("m1 * m3 = ");
 		Console.WriteLine ((m1 * m3).ToString());
+
+        Console.WriteLine("m1 * m2 = (m1.rows != m2.columns) -> incompatible");
+        //Console.WriteLine((m1 * m2).ToString()); // will throw exception
+
+        Console.WriteLine("m1 + m2 = ");
+        Console.WriteLine((m1 + m2).ToString());
+
+        Console.WriteLine("m1 - m2 = ");
+        Console.WriteLine((m1 - m2).ToString());
+
+        if (m1)
+        {
+            Console.WriteLine("m1 is true.");
+        }
+
+        if (m1 - m2)
+        {
+            Console.WriteLine("m1 - m2 is true.");
+        }
+        else
+        {
+            Console.WriteLine("m1 - m2 is not true.");
+        }
+
+        Console.WriteLine("\nVersion Attribute: ");
+        CustomVersion versionAttr = (CustomVersion)Attribute.GetCustomAttribute(typeof(GenericMatrixTest), typeof(CustomVersion));
+        Console.WriteLine(versionAttr.version);
 	}
 }

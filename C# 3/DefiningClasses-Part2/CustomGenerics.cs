@@ -2,7 +2,6 @@ using System;
 using System.Text;
 using System.Collections.Generic;
 
-
 namespace CustomGenerics
 {	
 	public class GenericList<T> where T: IComparable, new()
@@ -205,7 +204,7 @@ namespace CustomGenerics
 		
 		public static Matrix<T> operator * (Matrix<T> m1, Matrix<T> m2)
 		{
-			if (!m1.IsCompatibleWith (m2)) {
+			if (!m1.CanBeMultipliedBy (m2)) {
 				throw new ArgumentException ("Matrices are not compatible.");
 			}
 			Matrix<T> newMatrix = new Matrix<T> (m1.rows, m2.columns);
@@ -221,14 +220,88 @@ namespace CustomGenerics
 			}
 			return newMatrix;
 		}
+
+        public static Matrix<T> operator +(Matrix<T> m1, Matrix<T> m2)
+        {
+            if (!m1.CanBeAddedOrSubtractedWith(m2))
+            {
+                throw new ArgumentException("Matrices are not compatible.");
+            }
+            Matrix<T> newMatrix = new Matrix<T>(m1.rows, m2.columns);
+            T result = (dynamic)0;
+            for (int i = 0; i < m1.rows; i++)
+            {
+                for (int j = 0; j < m2.columns; j++)
+                {
+                    result = (dynamic)m1[i, j] + (dynamic)m2[i, j];
+                    newMatrix[i, j] = result;
+                    result = (dynamic)0;
+                }
+            }
+            return newMatrix;
+        }
+
+        public static Matrix<T> operator -(Matrix<T> m1, Matrix<T> m2)
+        {
+            if (!m1.CanBeAddedOrSubtractedWith(m2))
+            {
+                throw new ArgumentException("Matrices are not compatible.");
+            }
+            Matrix<T> newMatrix = new Matrix<T>(m1.rows, m2.columns);
+            T result = (dynamic)0;
+            for (int i = 0; i < m1.rows; i++)
+            {
+                for (int j = 0; j < m2.columns; j++)
+                {
+                    result = (dynamic)m1[i, j] - (dynamic)m2[i, j];
+                    newMatrix[i, j] = result;
+                    result = (dynamic)0;
+                }
+            }
+            return newMatrix;
+        }
+
+        public static bool operator true(Matrix<T> m)
+        {
+            return ValidateMatrix(m);
+        }
+
+        public static bool operator false(Matrix<T> m)
+        {
+            return ValidateMatrix(m);
+        }
+
+        private static bool ValidateMatrix(Matrix<T> m)
+        {
+            for (int i = 0; i < m.rows; i++)
+            {
+                for (int j = 0; j < m.columns; j++)
+                {
+                    if (m[i, j] != (dynamic)0)
+                    {
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }
 		
-		private bool IsCompatibleWith (Matrix<T> m)
+		private bool CanBeMultipliedBy (Matrix<T> m)
 		{
 			if (this.columns != m.rows) {
 				return false;
 			}
 			return true;
 		}
+
+        private bool CanBeAddedOrSubtractedWith(Matrix<T> m)
+        {
+            if (this.columns != m.columns || this.rows != m.rows)
+            {
+                return false;
+            }
+            return true;
+        }
 		
 		public override string ToString ()
 		{
@@ -245,6 +318,22 @@ namespace CustomGenerics
 			return matrixString.ToString ();
 		}
 	}
+
+    [System.AttributeUsage(System.AttributeTargets.Class |
+                            System.AttributeTargets.Struct |
+                            System.AttributeTargets.Interface |
+                            System.AttributeTargets.Enum |
+                            System.AttributeTargets.Method)]
+
+    public class CustomVersion : System.Attribute
+    {
+        public double version;
+
+        public CustomVersion(double version)
+        {
+            this.version = version;
+        }
+    }
 }
 
 

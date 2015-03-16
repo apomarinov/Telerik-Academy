@@ -3,3 +3,8 @@
 \\vmware-host\Shared Folders\Desktop\DefiningClasses-Part2\GenericMatrix_Problems8to11\obj\x86\Debug\GenericMatrix_Problems8to11.csprojResolveAssemblyReference.cache
 \\vmware-host\Shared Folders\Desktop\DefiningClasses-Part2\GenericMatrix_Problems8to11\obj\x86\Debug\GenericMatrix_Problems8to11.exe
 \\vmware-host\Shared Folders\Desktop\DefiningClasses-Part2\GenericMatrix_Problems8to11\obj\x86\Debug\GenericMatrix_Problems8to11.pdb
+C:\Users\creative02\Documents\Telerik-Academy\C# 3\DefiningClasses-Part2\GenericMatrix_Problems8to11\obj\x86\Debug\GenericMatrix_Problems8to11.exe
+C:\Users\creative02\Documents\Telerik-Academy\C# 3\DefiningClasses-Part2\GenericMatrix_Problems8to11\obj\x86\Debug\GenericMatrix_Problems8to11.pdb
+C:\Users\creative02\Documents\Telerik-Academy\C# 3\DefiningClasses-Part2\GenericMatrix_Problems8to11\bin\Debug\GenericMatrix_Problems8to11.exe
+C:\Users\creative02\Documents\Telerik-Academy\C# 3\DefiningClasses-Part2\GenericMatrix_Problems8to11\bin\Debug\GenericMatrix_Problems8to11.pdb
+C:\Users\creative02\Documents\Telerik-Academy\C# 3\DefiningClasses-Part2\GenericMatrix_Problems8to11\obj\x86\Debug\GenericMatrix_Problems8to11.csprojResolveAssemblyReference.cache

@@ -1,0 +1,5 @@
+C:\Users\creative02\Documents\Telerik-Academy\C# 3\DefiningClasses-Part2\GenericList_Problem5to7\obj\x86\Debug\GenericList_Problem5to7.csprojResolveAssemblyReference.cache
+C:\Users\creative02\Documents\Telerik-Academy\C# 3\DefiningClasses-Part2\GenericList_Problem5to7\bin\Debug\GenericList_Problem5to7.exe
+C:\Users\creative02\Documents\Telerik-Academy\C# 3\DefiningClasses-Part2\GenericList_Problem5to7\bin\Debug\GenericList_Problem5to7.pdb
+C:\Users\creative02\Documents\Telerik-Academy\C# 3\DefiningClasses-Part2\GenericList_Problem5to7\obj\x86\Debug\GenericList_Problem5to7.exe
+C:\Users\creative02\Documents\Telerik-Academy\C# 3\DefiningClasses-Part2\GenericList_Problem5to7\obj\x86\Debug\GenericList_Problem5to7.pdb
