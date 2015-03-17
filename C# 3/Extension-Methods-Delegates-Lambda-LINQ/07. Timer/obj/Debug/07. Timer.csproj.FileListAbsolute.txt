@@ -1,0 +1,1 @@
+C:\Users\creative02\Desktop\Extension-Methods-Delegates-Lambda-LINQ\07. Timer\bin\Debug\_07.Timer.exe.config

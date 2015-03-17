@@ -1,0 +1,2 @@
+C:\Users\creative02\Desktop\Extension-Methods-Delegates-Lambda-LINQ\02. IEnumerable extensions\obj\Debug\02. IEnumerable extensions - WIP.csprojResolveAssemblyReference.cache
+C:\Users\creative02\Desktop\Extension-Methods-Delegates-Lambda-LINQ\02. IEnumerable extensions\bin\Debug\_02.IEnumerable_extensions.exe.config

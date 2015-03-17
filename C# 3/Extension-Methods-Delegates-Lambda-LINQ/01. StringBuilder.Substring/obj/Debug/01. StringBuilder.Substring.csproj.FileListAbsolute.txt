@@ -1,0 +1,6 @@
+c:\users\creative02\documents\visual studio 2013\Projects\Extension-Methods-Delegates-Lambda-LINQ\01. StringBuilder.Substring\bin\Debug\_01.StringBuilder.Substring.exe.config
+C:\Users\creative02\Desktop\Extension-Methods-Delegates-Lambda-LINQ\01. StringBuilder.Substring\bin\Debug\_01.StringBuilder.Substring.exe.config
+C:\Users\creative02\Desktop\Extension-Methods-Delegates-Lambda-LINQ\01. StringBuilder.Substring\bin\Debug\_01.StringBuilder.Substring.exe
+C:\Users\creative02\Desktop\Extension-Methods-Delegates-Lambda-LINQ\01. StringBuilder.Substring\bin\Debug\_01.StringBuilder.Substring.pdb
+C:\Users\creative02\Desktop\Extension-Methods-Delegates-Lambda-LINQ\01. StringBuilder.Substring\obj\Debug\_01.StringBuilder.Substring.exe
+C:\Users\creative02\Desktop\Extension-Methods-Delegates-Lambda-LINQ\01. StringBuilder.Substring\obj\Debug\_01.StringBuilder.Substring.pdb
