@@ -1,0 +1,3 @@
+C:\Users\creative02\Documents\Telerik-Academy\C# 3\Extension-Methods-Delegates-Lambda-LINQ\02. IEnumerable extensions\bin\Debug\_02.IEnumerable_extensions.exe.config
+C:\Users\creative02\Documents\Telerik-Academy\C# 3\Extension-Methods-Delegates-Lambda-LINQ\02. IEnumerable extensions\obj\Debug\_02.IEnumerable_extensions.exe
+C:\Users\creative02\Documents\Telerik-Academy\C# 3\Extension-Methods-Delegates-Lambda-LINQ\02. IEnumerable extensions\obj\Debug\_02.IEnumerable_extensions.pdb

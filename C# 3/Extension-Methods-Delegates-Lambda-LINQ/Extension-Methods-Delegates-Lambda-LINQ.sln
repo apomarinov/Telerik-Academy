@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. StringBuilder.Substring", "01. StringBuilder.Substring\01. StringBuilder.Substring.csproj", "{5211D2C3-8D9D-438D-B8B9-FBA353298372}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. IEnumerable extensions - WIP", "02. IEnumerable extensions\02. IEnumerable extensions - WIP.csproj", "{B5D4AA5E-8DC5-443A-B0A3-7F37D8CC7D16}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. IEnumerable extensions", "02. IEnumerable extensions\02. IEnumerable extensions.csproj", "{B5D4AA5E-8DC5-443A-B0A3-7F37D8CC7D16}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. First before last", "03. First before last\03. First before last.csproj", "{3B172EF3-A305-4E65-BCCB-E1C5DA642685}"
 EndProject
@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Order students", "05. O
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Divisible by 7 and 3", "06. Divisible by 7 and 3\06. Divisible by 7 and 3.csproj", "{56452942-33B2-46A4-BC64-9D2DDE29D8C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Timer", "07. Timer\07. Timer.csproj", "{55379474-76B2-42E0-B72B-913E7C0A7F2A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Timer - WIP", "07. Timer\07. Timer - WIP.csproj", "{55379474-76B2-42E0-B72B-913E7C0A7F2A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Students - Problems 9 to 19", "08. Students - Problems 9 to 19\Students - Problems 9 to 19.csproj", "{D41F70A4-2514-44C1-89E0-19D6B34623A1}"
 EndProject

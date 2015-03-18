@@ -1,1 +1,2 @@
 C:\Users\creative02\Desktop\Extension-Methods-Delegates-Lambda-LINQ\07. Timer\bin\Debug\_07.Timer.exe.config
+C:\Users\creative02\Documents\Telerik-Academy\C# 3\Extension-Methods-Delegates-Lambda-LINQ\07. Timer\bin\Debug\_07.Timer.exe.config
