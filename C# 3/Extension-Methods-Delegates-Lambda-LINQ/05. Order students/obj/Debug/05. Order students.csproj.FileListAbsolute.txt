@@ -3,3 +3,6 @@ C:\Users\creative02\Desktop\Extension-Methods-Delegates-Lambda-LINQ\05. Order st
 C:\Users\creative02\Desktop\Extension-Methods-Delegates-Lambda-LINQ\05. Order students\bin\Debug\_05.Order_students.pdb
 C:\Users\creative02\Desktop\Extension-Methods-Delegates-Lambda-LINQ\05. Order students\obj\Debug\_05.Order_students.exe
 C:\Users\creative02\Desktop\Extension-Methods-Delegates-Lambda-LINQ\05. Order students\obj\Debug\_05.Order_students.pdb
+C:\Users\creative02\Documents\Telerik-Academy\C# 3\Extension-Methods-Delegates-Lambda-LINQ\05. Order students\bin\Debug\_05.Order_students.exe.config
+C:\Users\creative02\Documents\Telerik-Academy\C# 3\Extension-Methods-Delegates-Lambda-LINQ\05. Order students\obj\Debug\_05.Order_students.exe
+C:\Users\creative02\Documents\Telerik-Academy\C# 3\Extension-Methods-Delegates-Lambda-LINQ\05. Order students\obj\Debug\_05.Order_students.pdb

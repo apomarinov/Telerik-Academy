@@ -4,3 +4,6 @@ C:\Users\creative02\Desktop\Extension-Methods-Delegates-Lambda-LINQ\08. Students
 C:\Users\creative02\Desktop\Extension-Methods-Delegates-Lambda-LINQ\08. Students - Problems 9 to 19\obj\Debug\Students - Problems 9 to 19.csprojResolveAssemblyReference.cache
 C:\Users\creative02\Desktop\Extension-Methods-Delegates-Lambda-LINQ\08. Students - Problems 9 to 19\obj\Debug\_08.Students___Problems_9_to_19.exe
 C:\Users\creative02\Desktop\Extension-Methods-Delegates-Lambda-LINQ\08. Students - Problems 9 to 19\obj\Debug\_08.Students___Problems_9_to_19.pdb
+C:\Users\creative02\Documents\Telerik-Academy\C# 3\Extension-Methods-Delegates-Lambda-LINQ\08. Students - Problems 9 to 19\bin\Debug\_08.Students___Problems_9_to_19.exe.config
+C:\Users\creative02\Documents\Telerik-Academy\C# 3\Extension-Methods-Delegates-Lambda-LINQ\08. Students - Problems 9 to 19\obj\Debug\_08.Students___Problems_9_to_19.exe
+C:\Users\creative02\Documents\Telerik-Academy\C# 3\Extension-Methods-Delegates-Lambda-LINQ\08. Students - Problems 9 to 19\obj\Debug\_08.Students___Problems_9_to_19.pdb
