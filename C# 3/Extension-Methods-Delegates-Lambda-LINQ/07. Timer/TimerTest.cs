@@ -12,10 +12,12 @@ class TimerTest
     static void Main()
     {
         int i = 0;
-        CustomTimer t = new CustomTimer(delegate() { i++; }, 500);
 
         Console.WriteLine("Start timer result: " + i);
+        CustomTimer t = new CustomTimer(delegate() { i++; Console.WriteLine(i); }, 500);
+
         t.Start();
+        // do some work for 2seconds
         Thread.Sleep((int)2000);
         t.Stop();
         Console.WriteLine("Stop timer result: " + i);

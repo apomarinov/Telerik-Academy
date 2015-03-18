@@ -8,8 +8,8 @@ class StudentsTest
 {
     static void Main()
     {
-        //Console.WriteLine("When a student is printed, its a very long string,\n so please go the Properties of the console and\n increase the Screen Buffer Size and Window Size width\n of the window to like 150, and then uncoment the return below.");
-        //return;
+        Console.WriteLine("When a student is printed, its a very long string,\n so please go the Properties of the console and\n increase the Screen Buffer Size and Window Size width\n of the window to like 150, and then uncoment the return below.");
+        return;
         // OMG WHAT ARE ALL THESE STUDENTS, did ya write them by hand?
         // again, the data is generated from generatedate.com and reformated in Sublime Text
         Student[] students = new[]{

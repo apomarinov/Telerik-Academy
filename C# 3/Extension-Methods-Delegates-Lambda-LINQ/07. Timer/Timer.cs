@@ -38,7 +38,10 @@ namespace CustomTimerClass
             while (this.runTimer)
             {
                 Thread.Sleep((int)interval);
-                timerDelegate();
+                if (runTimer)
+                {
+                    timerDelegate();
+                }
             }
         }
 
