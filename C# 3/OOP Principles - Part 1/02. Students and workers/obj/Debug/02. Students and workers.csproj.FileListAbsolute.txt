@@ -1,0 +1,6 @@
+\\vmware-host\Shared Folders\Desktop\Telerik-Academy\C# 3\OOP Principles - Part 1\02. Students and workers\bin\Debug\_02.Students_and_workers.exe.config
+\\vmware-host\Shared Folders\Desktop\Telerik-Academy\C# 3\OOP Principles - Part 1\02. Students and workers\bin\Debug\_02.Students_and_workers.exe
+\\vmware-host\Shared Folders\Desktop\Telerik-Academy\C# 3\OOP Principles - Part 1\02. Students and workers\bin\Debug\_02.Students_and_workers.pdb
+\\vmware-host\Shared Folders\Desktop\Telerik-Academy\C# 3\OOP Principles - Part 1\02. Students and workers\obj\Debug\_02.Students_and_workers.exe
+\\vmware-host\Shared Folders\Desktop\Telerik-Academy\C# 3\OOP Principles - Part 1\02. Students and workers\obj\Debug\_02.Students_and_workers.pdb
+\\vmware-host\Shared Folders\Desktop\Telerik-Academy\C# 3\OOP Principles - Part 1\02. Students and workers\obj\Debug\02. Students and workers.csprojResolveAssemblyReference.cache
