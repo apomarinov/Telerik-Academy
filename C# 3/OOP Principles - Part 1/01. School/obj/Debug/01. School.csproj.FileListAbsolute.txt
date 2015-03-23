@@ -4,3 +4,5 @@
 \\vmware-host\Shared Folders\Desktop\Telerik-Academy\C# 3\OOP Principles - Part 1\01. School\bin\Debug\_01.School.pdb
 \\vmware-host\Shared Folders\Desktop\Telerik-Academy\C# 3\OOP Principles - Part 1\01. School\obj\Debug\_01.School.exe
 \\vmware-host\Shared Folders\Desktop\Telerik-Academy\C# 3\OOP Principles - Part 1\01. School\obj\Debug\_01.School.pdb
+C:\Users\creative02\Documents\Telerik-Academy\C# 3\OOP Principles - Part 1\01. School\bin\Debug\_01.School.exe.config
+C:\Users\creative02\Documents\Telerik-Academy\C# 3\OOP Principles - Part 1\01. School\obj\Debug\_01.School.exe

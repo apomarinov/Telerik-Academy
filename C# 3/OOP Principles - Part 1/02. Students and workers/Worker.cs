@@ -11,7 +11,7 @@ namespace School
 
         public int WeekSalary
         {
-            get { return weekSalary; }
+            get { return this.weekSalary; }
             set 
             {
                 if (value <= 0)
@@ -24,7 +24,7 @@ namespace School
 
         public int WorkHoursPerDay
         {
-            get { return workHoursPerDay; }
+            get { return this.workHoursPerDay; }
             set
             {
                 if (value <= 0)
