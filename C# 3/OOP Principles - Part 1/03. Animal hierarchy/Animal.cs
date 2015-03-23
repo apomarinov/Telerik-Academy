@@ -68,6 +68,11 @@ namespace Fauna
             throw new NotImplementedException();
         }
 
+        public static double AverageAge(Animal[] animals)
+        {
+            return animals.Average(a => a.Age);
+        }
+
         public override string ToString()
         {
             return String.Format("Name: {0} Age: {1} Sex: {2}", this.Name, this.Age, this.Sex);

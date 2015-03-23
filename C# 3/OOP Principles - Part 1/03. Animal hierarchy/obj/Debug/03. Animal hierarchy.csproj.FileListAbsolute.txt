@@ -4,3 +4,9 @@ C:\Users\creative02\Documents\Telerik-Academy\C# 3\OOP Principles - Part 1\03. A
 C:\Users\creative02\Documents\Telerik-Academy\C# 3\OOP Principles - Part 1\03. Animal hierarchy\bin\Debug\_03.Animal_hierarchy.pdb
 C:\Users\creative02\Documents\Telerik-Academy\C# 3\OOP Principles - Part 1\03. Animal hierarchy\obj\Debug\_03.Animal_hierarchy.exe
 C:\Users\creative02\Documents\Telerik-Academy\C# 3\OOP Principles - Part 1\03. Animal hierarchy\obj\Debug\_03.Animal_hierarchy.pdb
+\\vmware-host\Shared Folders\Desktop\Telerik-Academy\C# 3\OOP Principles - Part 1\03. Animal hierarchy\bin\Debug\_03.Animal_hierarchy.exe.config
+\\vmware-host\Shared Folders\Desktop\Telerik-Academy\C# 3\OOP Principles - Part 1\03. Animal hierarchy\obj\Debug\_03.Animal_hierarchy.exe
+\\vmware-host\Shared Folders\Desktop\Telerik-Academy\C# 3\OOP Principles - Part 1\03. Animal hierarchy\obj\Debug\_03.Animal_hierarchy.pdb
+\\vmware-host\Shared Folders\Desktop\Telerik-Academy\C# 3\OOP Principles - Part 1\03. Animal hierarchy\bin\Debug\_03.Animal_hierarchy.exe
+\\vmware-host\Shared Folders\Desktop\Telerik-Academy\C# 3\OOP Principles - Part 1\03. Animal hierarchy\bin\Debug\_03.Animal_hierarchy.pdb
+\\vmware-host\Shared Folders\Desktop\Telerik-Academy\C# 3\OOP Principles - Part 1\03. Animal hierarchy\obj\Debug\03. Animal hierarchy.csprojResolveAssemblyReference.cache
