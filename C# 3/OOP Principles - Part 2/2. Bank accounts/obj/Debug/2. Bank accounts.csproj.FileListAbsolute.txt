@@ -1,0 +1,6 @@
+\\vmware-host\Shared Folders\Desktop\Telerik-Academy\C# 3\OOP Principles - Part 2\2. Bank accounts\bin\Debug\_2.Bank_accounts.exe.config
+\\vmware-host\Shared Folders\Desktop\Telerik-Academy\C# 3\OOP Principles - Part 2\2. Bank accounts\bin\Debug\_2.Bank_accounts.exe
+\\vmware-host\Shared Folders\Desktop\Telerik-Academy\C# 3\OOP Principles - Part 2\2. Bank accounts\bin\Debug\_2.Bank_accounts.pdb
+\\vmware-host\Shared Folders\Desktop\Telerik-Academy\C# 3\OOP Principles - Part 2\2. Bank accounts\obj\Debug\2. Bank accounts.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Desktop\Telerik-Academy\C# 3\OOP Principles - Part 2\2. Bank accounts\obj\Debug\_2.Bank_accounts.exe
+\\vmware-host\Shared Folders\Desktop\Telerik-Academy\C# 3\OOP Principles - Part 2\2. Bank accounts\obj\Debug\_2.Bank_accounts.pdb

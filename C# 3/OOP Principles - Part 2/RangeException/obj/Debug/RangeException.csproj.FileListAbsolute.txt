@@ -1,0 +1,6 @@
+\\vmware-host\Shared Folders\Desktop\Telerik-Academy\C# 3\OOP Principles - Part 2\RangeException\bin\Debug\RangeException.exe.config
+\\vmware-host\Shared Folders\Desktop\Telerik-Academy\C# 3\OOP Principles - Part 2\RangeException\bin\Debug\RangeException.exe
+\\vmware-host\Shared Folders\Desktop\Telerik-Academy\C# 3\OOP Principles - Part 2\RangeException\bin\Debug\RangeException.pdb
+\\vmware-host\Shared Folders\Desktop\Telerik-Academy\C# 3\OOP Principles - Part 2\RangeException\obj\Debug\RangeException.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Desktop\Telerik-Academy\C# 3\OOP Principles - Part 2\RangeException\obj\Debug\RangeException.exe
+\\vmware-host\Shared Folders\Desktop\Telerik-Academy\C# 3\OOP Principles - Part 2\RangeException\obj\Debug\RangeException.pdb

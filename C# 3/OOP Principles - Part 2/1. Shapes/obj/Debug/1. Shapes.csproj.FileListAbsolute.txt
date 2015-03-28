@@ -1,0 +1,6 @@
+\\vmware-host\Shared Folders\Desktop\Telerik-Academy\C# 3\OOP Principles - Part 2\1. Shapes\bin\Debug\_1.Shapes.exe.config
+\\vmware-host\Shared Folders\Desktop\Telerik-Academy\C# 3\OOP Principles - Part 2\1. Shapes\obj\Debug\1. Shapes.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Desktop\Telerik-Academy\C# 3\OOP Principles - Part 2\1. Shapes\bin\Debug\_1.Shapes.exe
+\\vmware-host\Shared Folders\Desktop\Telerik-Academy\C# 3\OOP Principles - Part 2\1. Shapes\bin\Debug\_1.Shapes.pdb
+\\vmware-host\Shared Folders\Desktop\Telerik-Academy\C# 3\OOP Principles - Part 2\1. Shapes\obj\Debug\_1.Shapes.exe
+\\vmware-host\Shared Folders\Desktop\Telerik-Academy\C# 3\OOP Principles - Part 2\1. Shapes\obj\Debug\_1.Shapes.pdb
