@@ -80,7 +80,7 @@ namespace Array64Bit
 		
 		public override int GetHashCode ()
 		{		
-			int hash = base.GetHashCode ();
+			int hash = this [0];
 			foreach (byte bit in this) {
 				hash = (hash * 17) + bit.GetHashCode ();
 			}			
