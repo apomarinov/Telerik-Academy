@@ -1,0 +1,6 @@
+\\vmware-host\Shared Folders\Desktop\1. Cosmetics Shop_Description\Cosmetics-Skeleton\Cosmetics\bin\Debug\Cosmetics.exe.config
+\\vmware-host\Shared Folders\Desktop\1. Cosmetics Shop_Description\Cosmetics-Skeleton\Cosmetics\obj\Debug\Cosmetics.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Desktop\1. Cosmetics Shop_Description\Cosmetics-Skeleton\Cosmetics\bin\Debug\Cosmetics.exe
+\\vmware-host\Shared Folders\Desktop\1. Cosmetics Shop_Description\Cosmetics-Skeleton\Cosmetics\bin\Debug\Cosmetics.pdb
+\\vmware-host\Shared Folders\Desktop\1. Cosmetics Shop_Description\Cosmetics-Skeleton\Cosmetics\obj\Debug\Cosmetics.exe
+\\vmware-host\Shared Folders\Desktop\1. Cosmetics Shop_Description\Cosmetics-Skeleton\Cosmetics\obj\Debug\Cosmetics.pdb
