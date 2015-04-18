@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Registration Form</title>
+</head>
+<body>
+	<table border="1">
+		<tr>
+			<td align="center"><strong>Last Name</strong></td>
+			<td><input type="text" size="30" /></td>
+		</tr>
+		<tr>
+			<td align="center"><strong>First Name</strong></td>
+			<td><input type="text" size="30" /></td>
+		</tr>
+		<tr>
+			<td align="center"><strong>Address</strong></td>
+			<td><textarea cols="30" rows="6"></textarea></td>
+		</tr>
+		<tr>
+			<td align="center"><strong>City</strong></td>
+			<td>
+				<input type="text" size="17" />
+				<label for="state">State</label>
+				<input type="text" size="5" />
+			</td>
+		</tr>
+		<tr>
+			<td align="center"><strong>Zip/Postal Code</strong></td>
+			<td> <input type="text" size="5" /> </td>
+		</tr>
+		<tr>
+			<td align="center"><strong>Country</strong></td>
+			<td>
+				<select>
+					<option>Bulgaria</option>
+					<option>Non Bulgaria</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td align="center">
+				<strong>
+					Phone(country code,<br />
+					area code, number)
+				</strong>
+			</td>
+			<td>
+				(+<input type="text" size="3" />)
+				<input type="text" size="3" />
+				<input type="text" size="10" />
+			</td>
+		</tr>
+		<tr>
+			<td align="center"><strong>E-mail</strong></td>
+			<td><input type="text" size="30" /></td>
+		</tr>
+		<tr>
+			<td align="center"><strong>Birth Date</strong></td>
+			<td><input type="text" size="30" value="дд.мм.гггг. г." /></td>
+		</tr>
+		<tr>
+			<td align="center"><strong>Gender</strong></td>
+			<td>
+				<select>
+					<option>Male</option>
+					<option>Female</option>
+					<option>Programmer</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td align="center"><strong>Starting Date</strong></td>
+			<td>
+				<span>
+					<input type="radio">
+					<label>Spring 2015</label>
+				</span>
+				<span>
+					<input type="radio">
+					<label>Summer 2015</label>
+				</span>
+			</td>
+		</tr>
+		<tr>
+			<td align="center"><strong>Comments/Questions</strong></td>
+			<td><textarea cols="30" rows="8"></textarea></td>
+		</tr>
+		<tr>
+			<td colspan="2" bgcolor="87CEEB" align="center">
+				<button>Submit</button>
+				<button>Clean This Form</button>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
