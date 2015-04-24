@@ -1,0 +1,84 @@
+thead {
+	background-color: #DBDBDB;
+}
+.Table {
+display: table;
+font-family: sans-serif;
+font-size: 12px;
+}
+.Header {
+background-color: #DBDBDB;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+-moz-border-top-left-radius: 10px;
+-moz-border-top-right-radius: 10px;
+}
+.Footer {
+background-color: #DBDBDB;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+-moz-border-bottom-left-radius: 10px;
+-moz-border-bottom-right-radius: 10px;
+}
+div.Header-Cell, .Header-Input, .Table-Body-Row {
+	display: table-row;
+}
+.Header-Title {
+	padding: 5px;
+	border-bottom: 1px solid #ABABAB;
+}
+.Footer-Content {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.id , .name , .price, .instock, .quantity, .discontinued {
+	display: table-cell;
+	padding: 5px;
+	border-bottom: 1px solid #ABABAB;
+}
+.idbox {
+	width: 70px;
+}
+.namebox {
+	width: 240px;
+}
+.pricebox, .instockbox, .quantitybox {
+	width: 90px;
+}
+.id {
+	width: 80px;
+	border-right: 1px solid #ABABAB;
+}
+.name {
+	width: 250px;
+	border-right: 1px solid #ABABAB;
+}
+.price, .instock, .quantity {
+	width: 150px;
+	border-right: 1px solid #ABABAB;
+}
+.discontinued {
+	width: 100px;
+}
+.leftbuttons, .rightbuttons, .list, .pagesize, .total {
+	display: table-cell;
+}
+.list {
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.one {
+	border: 1px solid red;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	padding: 1px;
+}
+.pagesize {
+	padding-left: 60px;
+}
+.total {
+	width: 470px;
+	text-align: right;
+}

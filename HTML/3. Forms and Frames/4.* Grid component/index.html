@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Grid Component</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="Table">
+		<div class="Header">
+			<div class="Header-Title">
+				Drag a column header and drop it here to group that column
+			</div>
+			<div class="Header-Cell">
+				<div class="id">ProductID</div>
+				<div class="name">Product name</div>
+				<div class="price">Unit price</div>
+				<div class="quantity">Quantity per unit</div>
+				<div class="instock">Units in stock</div>
+				<div class="discontinued">Discontinued</div>
+			</div>
+			<div class="Header-Input">
+				<div class="id"><input type="text" class="idbox"></div>
+				<div class="name"><input type="text" class="namebox"></div>
+				<div class="price"><input type="text" class="pricebox"><input type="button" value="▽"></div>
+				<div class="quantity"><input type="text" class="quantitybox"></div>
+				<div class="instock"><input type="text" class="instockbox"><input type="button" value="▽"></div>
+				<div class="discontinued"><input type="checkbox"><input type="button" value="▽"></div>
+			</div>
+		</div>
+		<div class="Table-Body">
+			<div class="Table-Body-Row">
+				<div class="id">1</div>
+				<div class="name">Ikura</div>
+				<div class="price">$18.00</div>
+				<div class="quantity">10 boxes x 20 bags</div>
+				<div class="instock">39</div>
+				<div class="discontinued"><input type="checkbox"></div>
+			</div>
+			<div class="Table-Body-Row">
+				<div class="id">2</div>
+				<div class="name">Chai</div>
+				<div class="price">$19.00</div>
+				<div class="quantity">24 - 12 oz bottles</div>
+				<div class="instock">17</div>
+				<div class="discontinued"><input type="checkbox"></div>
+			</div>
+			<div class="Table-Body-Row">
+				<div class="id">3</div>
+				<div class="name">Chang</div>
+				<div class="price">$10.00</div>
+				<div class="quantity">12 - 550 ml bottles</div>
+				<div class="instock">13</div>
+				<div class="discontinued"><input type="checkbox"></div>
+			</div>
+			<div class="Table-Body-Row">
+				<div class="id">4</div>
+				<div class="name">Aniseed Syrup</div>
+				<div class="price">$22.00</div>
+				<div class="quantity">48 - 6 oz jars</div>
+				<div class="instock">53</div>
+				<div class="discontinued"><input type="checkbox"></div>
+			</div>
+			<div class="Table-Body-Row">
+				<div class="id">5</div>
+				<div class="name">Chef Anton's Cajun Seasoning</div>
+				<div class="price">$21.35</div>
+				<div class="quantity">36 boxes</div>
+				<div class="instock">0</div>
+				<div class="discontinued"><input type="checkbox" disabled="disabled" checked></div>
+			</div>
+			<div class="Table-Body-Row">
+				<div class="id">6</div>
+				<div class="name">Chef Anton's Gumbo Mix</div>
+				<div class="price">25.00</div>
+				<div class="quantity">12 - 8 oz jars</div>
+				<div class="instock">120</div>
+				<div class="discontinued"><input type="checkbox"></div>
+			</div>
+			<div class="Table-Body-Row">
+				<div class="id">7</div>
+				<div class="name">Grandma's Boysenberry Spread</div>
+				<div class="price">$30.00</div>
+				<div class="quantity">12 - 1 lb pkgs.</div>
+				<div class="instock">15</div>
+				<div class="discontinued"><input type="checkbox"></div>
+			</div>
+			<div class="Table-Body-Row">
+				<div class="id">8</div>
+				<div class="name">Uncle Bob's Organic Dried Pears</div>
+				<div class="price">$40.00</div>
+				<div class="quantity">12 - 12 oz jars</div>
+				<div class="instock">15</div>
+				<div class="discontinued"><input type="checkbox"></div>
+			</div>
+			<div class="Table-Body-Row">
+				<div class="id">9</div>
+				<div class="name">Northwoods Cranberry Sauce</div>
+				<div class="price">$97.00</div>
+				<div class="quantity">18 - 500 g pkgs.</div>
+				<div class="instock">6</div>
+				<div class="discontinued"><input type="checkbox" disabled="disabled" checked></div>
+			</div>
+			<div class="Table-Body-Row">
+				<div class="id">10</div>
+				<div class="name">Mishi Kobe Niku</div>
+				<div class="price">$31.00</div>
+				<div class="quantity">12 - 200 ml jars</div>
+				<div class="instock">31</div>
+				<div class="discontinued"><input type="checkbox"></div>
+			</div>
+		</div>
+		<div class="Footer">
+			<div class="Footer-Content">
+				<div class="leftbuttons">
+					<input type="button" value="First">
+					<input type="button" value="←">
+				</div>
+				<div class="list"><span class="one">1</span> 2 3 4 5 6 7 8 9 10 ...</div>
+				<div class="rightbuttons">
+					<input type="button" value="→">
+					<input type="button" value="Last">
+				</div>
+				<div class="pagesize">Page size:
+					<select>
+						<option>10</option>
+						<option>20</option>
+						<option>30</option>
+					</select>
+				</div>
+				<div class="total">335104 items in 33511 pages</div>		
+			</div>
+		</div>
+	</div>
+</body>
+</html>
