@@ -1,0 +1,36 @@
+table {
+	border-collapse: collapse;
+	border: 1px solid #c7c5ad;
+}
+
+th {
+	border-right: 1px solid #c7c5ad;
+	padding: 5px;
+	text-align: left;
+	font-weight: 100;
+	color: white;
+}
+
+tr:nth-child(even) {
+	background: #ececd8;
+}
+
+td {
+	border-right: 1px solid #c7c5ad;
+	padding: 5px;
+}
+
+td:nth-child(1) {
+	width: 140px;
+}
+
+.green-grad {
+	background: #5ec306;
+	background: -moz-linear-gradient(top,  #5ec306 0%, #47a803 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5ec306), color-stop(100%,#47a803));
+	background: -webkit-linear-gradient(top,  #5ec306 0%,#47a803 100%);
+	background: -o-linear-gradient(top,  #5ec306 0%,#47a803 100%);
+	background: -ms-linear-gradient(top,  #5ec306 0%,#47a803 100%);
+	background: linear-gradient(to bottom,  #5ec306 0%,#47a803 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5ec306', endColorstr='#47a803',GradientType=0 );
+}

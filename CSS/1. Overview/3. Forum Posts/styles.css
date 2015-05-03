@@ -1,0 +1,47 @@
+body {
+	background: #a9a9a9;
+}
+
+header {
+	text-align: center;
+}
+
+body>header>h1 {
+	font-size: 50px;
+	text-align: center;
+}
+
+h1 {
+	color: #fafad2;
+	font-size: 30px;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+nav ul {
+	color: white;
+	list-style: none;
+	display: inline-block;
+}
+
+nav ul a {
+	color: white;
+	font-size: 30px;
+	font-weight: 800;
+}
+
+nav ul li:nth-child(2) {
+	background: #d3d3d3;
+}
+
+nav ul li:last-child {
+	text-decoration: underline;
+}
+
+section ~ footer {
+	text-align: center;
+}
