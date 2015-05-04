@@ -238,23 +238,24 @@ body {
 	height: 100%;
 }
 
-.interface-container .calc-display, .bytes-view, .numeral-system, .word-size, .calc-btn {
+.interface-container table td {
 	position: relative;
-	border-radius: 3px;
+	border-radius: 2px;
 	border: 1px solid #a8b3c0;
 	-webkit-box-shadow: inset 0px 0px 1px 1px rgba(255,255,255,0.77);
 	-moz-box-shadow: inset 0px 0px 1px 1px rgba(255,255,255,0.77);
 	box-shadow: inset 0px 0px 1px 1px rgba(255,255,255,0.77);
 }
 
+.calc-display-row {
+	height: 10px;
+}
 
 .calc-display {
 	cursor: text;
 	text-align: right;
 	font-size: 19px;
-	height: 30px;
 	padding-right: 5px;
-	padding-top: 16px;
 
 	background: rgb(229,239,251);
 	background: -moz-linear-gradient(top, rgb(229,239,251) 0%, rgb(255,255,255) 100%);
@@ -273,21 +274,15 @@ body {
 }
 
 .numeral-system {
-	width: 62px;
-	height: 86px;
-	margin-top: 5px;
+	width: 4px;
 }
 
 .word-size {
-	width: 62px;
-	height: 88px;
-	margin-top: 5px;
+	width: 4px;
 }
 
 .bytes-view {
-	height: 50px;
-	margin-top: 5px;
-	padding-left: 3px;
+	height: 2px;
 }
 
 .bytes-view-row {
@@ -303,7 +298,7 @@ body {
 	display: inline-block;
 	font-size: 11px;
 	color: #52637b;
-	top: -6px;
+	top: -4px;
 }
 
 .bytes-view-byte-count-right {
@@ -319,8 +314,6 @@ body {
 }
 
 .numeral-system-segment {
-	margin-left: 4px;
-	margin-top: 4px;
 	position: absolute;
 	width: 60px;
 	height: 20px;
@@ -345,60 +338,21 @@ body {
 	cursor: default;
 }
 
-.calc-btn-container {
-	margin-top: -182px;
-	margin-left: 70px;
-	height: 122px;
-}
-
 .calc-btn {
 	text-align: center;
-	width: 32px;
-	height: 25px;
-	display: inline-block;
+	color: #1e395b;
 }
 
-.calc-func-btn {
-	background: #f6fafe;
-	background: -moz-linear-gradient(top,  #f6fafe 0%, #e4ebf4 50%, #d5e0ed 51%, #d7e2ef 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f6fafe), color-stop(50%,#e4ebf4), color-stop(51%,#d5e0ed), color-stop(100%,#d7e2ef));
-	background: -webkit-linear-gradient(top,  #f6fafe 0%,#e4ebf4 50%,#d5e0ed 51%,#d7e2ef 100%);
-	background: -o-linear-gradient(top,  #f6fafe 0%,#e4ebf4 50%,#d5e0ed 51%,#d7e2ef 100%);
-	background: -ms-linear-gradient(top,  #f6fafe 0%,#e4ebf4 50%,#d5e0ed 51%,#d7e2ef 100%);
-	background: linear-gradient(to bottom,  #f6fafe 0%,#e4ebf4 50%,#d5e0ed 51%,#d7e2ef 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6fafe', endColorstr='#d7e2ef',GradientType=0 );
+.top1of4 {
+	top: 25%;
 }
 
-.calc-numeral-btn {
-	background: #f7fbff;
-	background: -moz-linear-gradient(top,  #f7fbff 0%, #edf3f8 50%, #e4ebf4 50%, #e7edf5 51%, #f3fbff 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7fbff), color-stop(50%,#edf3f8), color-stop(50%,#e4ebf4), color-stop(51%,#e7edf5), color-stop(100%,#f3fbff));
-	background: -webkit-linear-gradient(top,  #f7fbff 0%,#edf3f8 50%,#e4ebf4 50%,#e7edf5 51%,#f3fbff 100%);
-	background: -o-linear-gradient(top,  #f7fbff 0%,#edf3f8 50%,#e4ebf4 50%,#e7edf5 51%,#f3fbff 100%);
-	background: -ms-linear-gradient(top,  #f7fbff 0%,#edf3f8 50%,#e4ebf4 50%,#e7edf5 51%,#f3fbff 100%);
-	background: linear-gradient(to bottom,  #f7fbff 0%,#edf3f8 50%,#e4ebf4 50%,#e7edf5 51%,#f3fbff 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7fbff', endColorstr='#f3fbff',GradientType=0 );
+.top2of4 {
+	top: 50%;
 }
 
-.double-horizontal-btn {
-	width: 70px;
-}
-
-.double-vertical-btn {
-	height: 56px;
-	float: right;
-}
-
-.top25 {
-	top: 22%;
-}
-
-.top45 {
-	top: 45%;
-}
-
-.top70 {
-	top: 70%;
+.top3of4 {
+	top: 75%;
 }
 
 
