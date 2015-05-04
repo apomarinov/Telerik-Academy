@@ -4,6 +4,12 @@ body {
 	left: 0;
 	top: 0;
 	font-family: "Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,sans-serif; 
+	cursor: default;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
 }
 
 .desktop {
@@ -17,11 +23,6 @@ body {
 	position: absolute;
 	z-index: -10;
 	width: 100%;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	-o-user-select: none;
-	user-select: none;
 }
 
 .calc {
@@ -264,6 +265,12 @@ body {
 	background: -ms-linear-gradient(top, rgb(229,239,251) 0%, rgb(255,255,255) 100%);
 	background: linear-gradient(to bottom, rgb(229,239,251) 0%, rgb(255,255,255) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5effb', endColorstr='#ffffff', GradientType=0 );
+
+	-webkit-user-select: text;
+	-moz-user-select: text;
+	-ms-user-select: text;
+	-o-user-select: text;
+	user-select: text;
 }
 
 .no-inset-shadow {
@@ -288,6 +295,11 @@ body {
 	height: 50px;
 	margin-top: 5px;
 	padding-left: 3px;
+	-webkit-user-select: text;
+	-moz-user-select: text;
+	-ms-user-select: text;
+	-o-user-select: text;
+	user-select: text;
 }
 
 .bytes-view-row {
@@ -352,10 +364,19 @@ body {
 }
 
 .calc-btn {
+	font-size: 12px;
+	padding-top: 4px;
 	text-align: center;
 	width: 32px;
-	height: 25px;
+	height: 21px;
+	margin-top: 3px;
 	display: inline-block;
+	color: #1e395b;
+	cursor: default;
+
+	-webkit-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
 }
 
 .calc-func-btn {
@@ -385,8 +406,96 @@ body {
 }
 
 .double-vertical-btn {
-	height: 56px;
+	height: 37px;
 	float: right;
+	padding-top: 18px;
+}
+
+.calc-func-btn:hover, .calc-numeral-btn:hover, .calc-operation-btn:hover {
+	border: 1px solid white;
+	-webkit-box-shadow: 0px 0px 2px 1px rgba(255,221,0,1), inset 0px 0px 1px 1px rgba(255,255,255,1);
+	-moz-box-shadow: 0px 0px 2px 1px rgba(255,221,0,1), inset 0px 0px 1px 1px rgba(255,255,255,1);
+	box-shadow: 0px 0px 2px 1px rgba(255,221,0,1), inset 0px 0px 1px 1px rgba(255,255,255,1);
+
+	background: #fff4e9;
+	background: -moz-linear-gradient(top, #fff4e9 0%, #fee2c2 50%, #ffd06a 51%, #ffed88 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #fff4e9), color-stop(50%, #fee2c2), color-stop(51%, #ffd06a), color-stop(100%, #ffed88));
+	background: -webkit-linear-gradient(top, #fff4e9 0%, #fee2c2 50%, #ffd06a 51%, #ffed88 100%);
+	background: -o-linear-gradient(top, #fff4e9 0%, #fee2c2 50%, #ffd06a 51%, #ffed88 100%);
+	background: -ms-linear-gradient(top, #fff4e9 0%, #fee2c2 50%, #ffd06a 51%, #ffed88 100%);
+	background: linear-gradient(to bottom, #fff4e9 0%, #fee2c2 50%, #ffd06a 51%, #ffed88 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff4e9', endColorstr='#ffed88', GradientType=0 );
+
+	-webkit-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
+}
+
+.calc-func-btn:active, .calc-numeral-btn:active, .calc-operation-btn:active {
+	border: 1px solid white;
+	-webkit-box-shadow: 0px 0px 2px 1px rgba(255,221,0,1), inset 0px 0px 1px 1px rgba(255,255,255,1);
+	-moz-box-shadow: 0px 0px 2px 1px rgba(255,221,0,1), inset 0px 0px 1px 1px rgba(255,255,255,1);
+	box-shadow: 0px 0px 2px 1px rgba(255,221,0,1), inset 0px 0px 1px 1px rgba(255,255,255,1);
+
+	background: #ffed88;
+	background: -moz-linear-gradient(top, #ffed88 0%, #ffd06a 49%, #fee2c2 50%, #fff4e9 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #ffed88), color-stop(49%, #ffd06a), color-stop(50%, #fee2c2), color-stop(100%, #fff4e9));
+	background: -webkit-linear-gradient(top, #ffed88 0%, #ffd06a 49%, #fee2c2 50%, #fff4e9 100%);
+	background: -o-linear-gradient(top, #ffed88 0%, #ffd06a 49%, #fee2c2 50%, #fff4e9 100%);
+	background: -ms-linear-gradient(top, #ffed88 0%, #ffd06a 49%, #fee2c2 50%, #fff4e9 100%);
+	background: linear-gradient(to bottom, #ffed88 0%, #ffd06a 49%, #fee2c2 50%, #fff4e9 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffed88', endColorstr='#fff4e9', GradientType=0 );
+
+	-webkit-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
+}
+
+.calc-memory-btn:hover {
+	border: 1px solid white;
+	-webkit-box-shadow: 0px 0px 2px 1px rgba(255,221,0,1), inset 0px 0px 1px 1px rgba(255,255,255,1);
+	-moz-box-shadow: 0px 0px 2px 1px rgba(255,221,0,1), inset 0px 0px 1px 1px rgba(255,255,255,1);
+	box-shadow: 0px 0px 2px 1px rgba(255,221,0,1), inset 0px 0px 1px 1px rgba(255,255,255,1);
+
+	background: #ffcf68;
+	background: -moz-linear-gradient(top, #ffcf68 0%, #fff292 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #ffcf68), color-stop(100%, #fff292));
+	background: -webkit-linear-gradient(top, #ffcf68 0%, #fff292 100%);
+	background: -o-linear-gradient(top, #ffcf68 0%, #fff292 100%);
+	background: -ms-linear-gradient(top, #ffcf68 0%, #fff292 100%);
+	background: linear-gradient(to bottom, #ffcf68 0%, #fff292 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcf68', endColorstr='#fff292', GradientType=0 );
+
+	-webkit-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
+}
+
+.calc-memory-btn:active {
+	border: 1px solid white;
+	-webkit-box-shadow: 0px 0px 2px 1px rgba(255,221,0,1), inset 0px 0px 1px 1px rgba(255,255,255,1);
+	-moz-box-shadow: 0px 0px 2px 1px rgba(255,221,0,1), inset 0px 0px 1px 1px rgba(255,255,255,1);
+	box-shadow: 0px 0px 2px 1px rgba(255,221,0,1), inset 0px 0px 1px 1px rgba(255,255,255,1);
+
+	background: #feb645;
+	background: -moz-linear-gradient(top, #feb645 0%, #f1e767 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #feb645), color-stop(100%, #f1e767));
+	background: -webkit-linear-gradient(top, #feb645 0%, #f1e767 100%);
+	background: -o-linear-gradient(top, #feb645 0%, #f1e767 100%);
+	background: -ms-linear-gradient(top, #feb645 0%, #f1e767 100%);
+	background: linear-gradient(to bottom, #feb645 0%, #f1e767 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feb645', endColorstr='#f1e767', GradientType=0 );
+
+	-webkit-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
+}
+
+.draggable {
+	width: 304px;
+	height: 30px;
+	opacity: 0.5;
+	position: absolute;
 }
 
 .top25 {

@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Winboza Calculator</title>
 	<link rel="stylesheet" href="styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="main.js"></script>
 </head>
 <body>
 	<img src="bg.png" alt="win" class="win-bg" />
@@ -23,6 +25,7 @@
 					<div class="close-btn-chevron">x</div>
 				</div>
 			</div>
+			<div class="draggable"></div>
 			<div class="panel">
 				<div class="menu-bar">
 					<div class="menu-bar-element">View</div>
@@ -112,57 +115,57 @@
 						</div>
 					</div>
 					<div class="calc-btn-container">
-						<div class="calc-btn no-inset-shadow"></div>
-						<div class="calc-btn calc-func-btn"></div>
-						<div class="calc-btn no-inset-shadow"></div>
-						<div class="calc-btn"></div>
-						<div class="calc-btn"></div>
-						<div class="calc-btn"></div>
-						<div class="calc-btn"></div>
-						<div class="calc-btn"></div>
+						<div class="calc-btn no-inset-shadow">&nbsp;</div>
+						<div class="calc-btn calc-func-btn">Mod</div>
+						<div class="calc-btn no-inset-shadow">A</div>
+						<div class="calc-btn calc-memory-btn">MC</div>
+						<div class="calc-btn calc-memory-btn">MR</div>
+						<div class="calc-btn calc-memory-btn">MS</div>
+						<div class="calc-btn calc-memory-btn">M+</div>
+						<div class="calc-btn calc-memory-btn">M-</div>
 
-						<div class="calc-btn calc-func-btn"></div>
-						<div class="calc-btn calc-func-btn"></div>
-						<div class="calc-btn no-inset-shadow"></div>
-						<div class="calc-btn calc-func-btn"></div>
-						<div class="calc-btn calc-func-btn"></div>
-						<div class="calc-btn calc-func-btn"></div>
-						<div class="calc-btn calc-func-btn"></div>
-						<div class="calc-btn no-inset-shadow"></div>
+						<div class="calc-btn calc-func-btn">(</div>
+						<div class="calc-btn calc-func-btn">)</div>
+						<div class="calc-btn no-inset-shadow">B</div>
+						<div class="calc-btn calc-func-btn">&larr;</div>
+						<div class="calc-btn calc-func-btn">CE</div>
+						<div class="calc-btn calc-func-btn">C</div>
+						<div class="calc-btn calc-func-btn">&plusmn;</div>
+						<div class="calc-btn no-inset-shadow calc-operation-btn">&radic;</div>
 
-						<div class="calc-btn calc-func-btn"></div>
-						<div class="calc-btn calc-func-btn"></div>
-						<div class="calc-btn no-inset-shadow"></div>
-						<div class="calc-btn calc-numeral-btn"></div>
-						<div class="calc-btn calc-numeral-btn"></div>
-						<div class="calc-btn calc-numeral-btn"></div>
-						<div class="calc-btn calc-func-btn"></div>
-						<div class="calc-btn no-inset-shadow"></div>
+						<div class="calc-btn calc-func-btn">RoL</div>
+						<div class="calc-btn calc-func-btn">RoR</div>
+						<div class="calc-btn no-inset-shadow">C</div>
+						<div class="calc-btn calc-numeral-btn">7</div>
+						<div class="calc-btn calc-numeral-btn">8</div>
+						<div class="calc-btn calc-numeral-btn">9</div>
+						<div class="calc-btn calc-func-btn">/</div>
+						<div class="calc-btn no-inset-shadow calc-operation-btn">%</div>
 
-						<div class="calc-btn calc-func-btn"></div>
-						<div class="calc-btn calc-func-btn"></div>
-						<div class="calc-btn no-inset-shadow"></div>
-						<div class="calc-btn calc-numeral-btn"></div>
-						<div class="calc-btn calc-numeral-btn"></div>
-						<div class="calc-btn calc-numeral-btn"></div>
-						<div class="calc-btn calc-func-btn"></div>
-						<div class="calc-btn no-inset-shadow"></div>
+						<div class="calc-btn calc-func-btn">Or</div>
+						<div class="calc-btn calc-func-btn">Xor</div>
+						<div class="calc-btn no-inset-shadow">D</div>
+						<div class="calc-btn calc-numeral-btn">4</div>
+						<div class="calc-btn calc-numeral-btn">5</div>
+						<div class="calc-btn calc-numeral-btn">6</div>
+						<div class="calc-btn calc-func-btn">*</div>
+						<div class="calc-btn no-inset-shadow calc-operation-btn">1/x</div>
 
-						<div class="calc-btn calc-func-btn"></div>
-						<div class="calc-btn calc-func-btn"></div>
-						<div class="calc-btn no-inset-shadow"></div>
-						<div class="calc-btn calc-numeral-btn"></div>
-						<div class="calc-btn calc-numeral-btn"></div>
-						<div class="calc-btn calc-numeral-btn"></div>
-						<div class="calc-btn calc-func-btn"></div>
-						<div class="calc-btn double-vertical-btn calc-func-btn"></div>
+						<div class="calc-btn calc-func-btn">Lsh</div>
+						<div class="calc-btn calc-func-btn">Rsh</div>
+						<div class="calc-btn no-inset-shadow">E</div>
+						<div class="calc-btn calc-numeral-btn">1</div>
+						<div class="calc-btn calc-numeral-btn">2</div>
+						<div class="calc-btn calc-numeral-btn">3</div>
+						<div class="calc-btn calc-func-btn">-</div>
+						<div class="calc-btn double-vertical-btn calc-func-btn">=</div>
 
-						<div class="calc-btn calc-func-btn"></div>
-						<div class="calc-btn calc-func-btn"></div>
-						<div class="calc-btn no-inset-shadow"></div>
-						<div class="calc-btn double-horizontal-btn calc-numeral-btn"></div>
-						<div class="calc-btn no-inset-shadow"></div>
-						<div class="calc-btn calc-func-btn"></div>
+						<div class="calc-btn calc-func-btn">Not</div>
+						<div class="calc-btn calc-func-btn">And</div>
+						<div class="calc-btn no-inset-shadow">F</div>
+						<div class="calc-btn double-horizontal-btn calc-numeral-btn">0</div>
+						<div class="calc-btn no-inset-shadow">.</div>
+						<div class="calc-btn calc-func-btn">+</div>
 					</div>
 				</div>
 			</div>
