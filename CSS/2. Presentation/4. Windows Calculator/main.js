@@ -2,7 +2,6 @@ $(document).ready(function(){
 	var calculatorWindow = new draggableWindow();
 	calculatorWindow.init();
 
-
 	function draggableWindow(){
 		var self = this;
 		var currentWindow = $(".draggable").closest('.window');
