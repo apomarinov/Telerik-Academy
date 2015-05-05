@@ -28,6 +28,8 @@ body {
 .calc {
 	width: 400px;
 	height: 367px;
+	margin-left: 36%;
+	margin-top: 10%;
 
 	border: 1px solid #cff;
 	border-radius: 7px;
@@ -44,6 +46,8 @@ body {
 	-webkit-box-shadow: 2px 2px 11px 4px rgba(0,0,0,0.45);
 	-moz-box-shadow: 2px 2px 11px 4px rgba(0,0,0,0.45);
 	box-shadow: 2px 2px 11px 4px rgba(0,0,0,0.45);
+
+
 }
 
 .panel {
@@ -361,6 +365,7 @@ body {
 	margin-top: -182px;
 	margin-left: 70px;
 	height: 122px;
+	width: 305px;
 }
 
 .calc-btn {
@@ -374,9 +379,9 @@ body {
 	color: #1e395b;
 	cursor: default;
 
-	-webkit-transition: 0.4s;
-	-o-transition: 0.4s;
-	transition: 0.4s;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
 }
 
 .calc-func-btn {
@@ -426,9 +431,9 @@ body {
 	background: linear-gradient(to bottom, #fff4e9 0%, #fee2c2 50%, #ffd06a 51%, #ffed88 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff4e9', endColorstr='#ffed88', GradientType=0 );
 
-	-webkit-transition: 0.4s;
-	-o-transition: 0.4s;
-	transition: 0.4s;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
 }
 
 .calc-func-btn:active, .calc-numeral-btn:active, .calc-operation-btn:active {
@@ -437,18 +442,18 @@ body {
 	-moz-box-shadow: 0px 0px 2px 1px rgba(255,221,0,1), inset 0px 0px 1px 1px rgba(255,255,255,1);
 	box-shadow: 0px 0px 2px 1px rgba(255,221,0,1), inset 0px 0px 1px 1px rgba(255,255,255,1);
 
-	background: #ffed88;
-	background: -moz-linear-gradient(top, #ffed88 0%, #ffd06a 49%, #fee2c2 50%, #fff4e9 100%);
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, #ffed88), color-stop(49%, #ffd06a), color-stop(50%, #fee2c2), color-stop(100%, #fff4e9));
-	background: -webkit-linear-gradient(top, #ffed88 0%, #ffd06a 49%, #fee2c2 50%, #fff4e9 100%);
-	background: -o-linear-gradient(top, #ffed88 0%, #ffd06a 49%, #fee2c2 50%, #fff4e9 100%);
-	background: -ms-linear-gradient(top, #ffed88 0%, #ffd06a 49%, #fee2c2 50%, #fff4e9 100%);
-	background: linear-gradient(to bottom, #ffed88 0%, #ffd06a 49%, #fee2c2 50%, #fff4e9 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffed88', endColorstr='#fff4e9', GradientType=0 );
+	background: #feb645;
+	background: -moz-linear-gradient(top, #feb645 0%, #f1e767 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #feb645), color-stop(100%, #f1e767));
+	background: -webkit-linear-gradient(top, #feb645 0%, #f1e767 100%);
+	background: -o-linear-gradient(top, #feb645 0%, #f1e767 100%);
+	background: -ms-linear-gradient(top, #feb645 0%, #f1e767 100%);
+	background: linear-gradient(to bottom, #feb645 0%, #f1e767 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feb645', endColorstr='#f1e767', GradientType=0 );
 
-	-webkit-transition: 0.4s;
-	-o-transition: 0.4s;
-	transition: 0.4s;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
 }
 
 .calc-memory-btn:hover {
@@ -466,9 +471,9 @@ body {
 	background: linear-gradient(to bottom, #ffcf68 0%, #fff292 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcf68', endColorstr='#fff292', GradientType=0 );
 
-	-webkit-transition: 0.4s;
-	-o-transition: 0.4s;
-	transition: 0.4s;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
 }
 
 .calc-memory-btn:active {
@@ -486,15 +491,14 @@ body {
 	background: linear-gradient(to bottom, #feb645 0%, #f1e767 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feb645', endColorstr='#f1e767', GradientType=0 );
 
-	-webkit-transition: 0.4s;
-	-o-transition: 0.4s;
-	transition: 0.4s;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
 }
 
 .draggable {
 	width: 304px;
 	height: 30px;
-	opacity: 0.5;
 	position: absolute;
 }
 
@@ -508,6 +512,12 @@ body {
 
 .top70 {
 	top: 70%;
+}
+
+.info-text {
+	position: absolute;
+	margin-left: 38%;
+	margin-top: 4%;
 }
 
 

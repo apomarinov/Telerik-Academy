@@ -22,7 +22,6 @@ $(document).ready(function(){
 					self.previousX = event.pageX;
 					self.previousY = event.pageY;
 					self.isDragged = true;
-					console.log('start');
 				}
 			});
 
@@ -31,20 +30,31 @@ $(document).ready(function(){
 					if(!self.isDragged) {
 						return false;
 					}
-					console.log('move');
-					self.currentX = event.pageX;
-					self.currentY = event.pageY;
-					self.deltaX = Math.abs(self.previousX - self.currentX);
-					self.deltaY = Math.abs(self.previousY - self.currentY);
-					currentWindow.css({
-						'margin-left': self.deltaX + "px",
-						'margin-top': self.deltaY + "px"
-					});
+					self.getCurrentMouseCoordinates(event);
+					self.moveWindow();
 				},
 				mouseup: function(){
 					self.reset();
 				}
 			});
+		};
+
+		this.getCurrentMouseCoordinates = function (event) {
+			self.currentX = event.pageX;
+			self.currentY = event.pageY;
+			self.deltaX = self.currentX - self.previousX;
+			self.deltaY = self.currentY - self.previousY;
+			self.previousX = self.currentX;
+			self.previousY = self.currentY;
+		}
+
+		this.moveWindow = function (){
+			var currentLeft = parseInt(currentWindow.css('margin-left'));
+			var currentTop = parseInt(currentWindow.css('margin-top'));
+			currentWindow.css({
+				'margin-left': (currentLeft + self.deltaX) + "px",
+				'margin-top': (currentTop + self.deltaY) + "px"
+			});			
 		};
 
 		this.reset = function(){
