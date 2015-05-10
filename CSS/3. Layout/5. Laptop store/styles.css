@@ -1,0 +1,127 @@
+#siteWrapper {
+	width: 850px;
+	height: 620px;
+	border: 2px solid black;
+	border-radius: 8px;
+	padding: 15px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0 auto;
+	width: 500px;
+}
+
+nav ul a {
+	color: #01ACEE;
+	font-size: 27px;
+}
+
+nav ul li {
+	display: inline;
+}
+
+hr {
+	width: 95%;
+	height: 2px;
+	border: none;
+	background: black;
+}
+
+#main-section {
+	border: 2px solid black;
+	width: 66%;
+	height: 92%;
+	padding: 5px;
+}
+
+section {
+	float: left;
+	border: 2px solid black;
+	height: 160px;
+	width: 48%;
+	margin-top: 20px;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+}
+
+article header h3 {
+	position: absolute;
+	margin: 0;
+	margin-top: -60px;
+	margin-left: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: white;
+	display: inline-block;
+}
+
+article img {
+	float: left;
+	margin-top: -30px;
+	margin-left: 10px;
+}
+
+article p {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.right-col {
+	margin-left: 150px;
+}
+
+.right-col:first-of-type {
+	margin-top: 50px;
+}
+
+.left-col {
+	margin-left: 30px;
+	float: left;
+	margin-top: 0px;
+}
+
+#sliders {
+	height: 580px;
+	width: 47%;
+	position: relative;
+	left: 571px;
+	top: -7px;
+}
+
+.slider {
+position: relative;
+margin-left: 20px;
+margin-top: 50px;
+top: -400px;
+}
+
+.slider input {
+	width: 90%;
+}
+
+.value {
+	text-align: right;
+	float: right;
+	margin-right: 5px;
+}
+
+.unit {
+	text-align: right;
+	float: right;
+	margin-right: 23px;
+}
+
+.label {
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+

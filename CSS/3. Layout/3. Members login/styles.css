@@ -1,0 +1,80 @@
+.login-header {
+	background: #3B3B3B;
+	padding: 5px;	
+	width: 662px;
+	height: 58px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	position: relative;
+}
+
+.shadow-drop {
+	width: 580px;
+	margin-left: 40px;
+	top: 90px;
+	position: absolute;
+	-webkit-box-shadow: 0px 0px 80px 15px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 0px 80px 15px rgba(0,0,0,1);
+	box-shadow: 0px 0px 80px 15px rgba(0,0,0,1);
+}
+
+.content-body {
+	background: #3B3B3B;
+	padding: 5px 10px 5px 10px;	
+	width: 652px;
+	height: 221px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	position: relative;
+}
+
+.content-body p {
+	color: #979797;
+}
+
+.content-body a {
+	color: #E7E7E7;
+}
+
+.pc-icon {
+	width: 52px;
+	height: 52px;
+	background: url('../img/pc.png') no-repeat;
+}
+
+.login-form {
+	position: relative;
+	z-index: 10;
+	top: -35px;
+	right: -62px;
+}
+
+.login-form * {
+	float: left;
+	margin-right: 20px;
+}
+
+input {
+	width: 150px;
+}
+
+.login-text {
+	color: white;
+	letter-spacing: 1px;
+	font-size: 24px;
+}
+
+.btn-submit {
+	width: 66px;
+	height: 52px;
+	margin-top: -16px;
+	background: url('../img/go_btn.png') no-repeat;
+}
+
+h2 {
+	font-weight: 100;
+	font-size: 30px;
+	margin: 0;
+	color: #FED91F;
+}
+

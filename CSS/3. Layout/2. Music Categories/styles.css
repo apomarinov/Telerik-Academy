@@ -1,0 +1,69 @@
+h3 {
+	margin: 0;
+}
+
+.categories {
+	width: 425px;
+	height: 480px;
+	border-radius: 10px;
+	padding: 15px 10px 5px;
+	background: #eee;
+}
+
+.category {
+	width: 92%;
+	position: relative;
+	padding: 15px;
+	margin-top: 30px;
+	background: white;
+	border: 1px solid black;
+}
+
+.info-text {
+	font-size: 14px;
+	margin-left: 10px;
+	width: 50%;
+	position: absolute;
+	top: 14px;
+	left: 150px;
+}
+
+.btn-container {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	color: white;
+	text-align: center;
+}
+
+.category:nth-child(4) .btn-container {
+	bottom: 10px;
+}
+
+.btn {
+	background: url('../img/btn.png') no-repeat;
+	padding-top: 4px;
+	height: 17px;
+	font-size: 14px;
+	display: inline-block;
+	cursor: pointer;
+	border: 2px solid rgb(255, 148, 148);
+	border-style: outset;	
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+.btn:active {
+	border-style: inset;
+}
+
+.btn-listen {
+	width: 77px;
+}
+
+.btn-add {
+	width: 60px;
+}
