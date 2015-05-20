@@ -1,0 +1,63 @@
+body, div, ul, li, input, label, img, p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+
+body {
+	font-family: "Arial";
+	font-size: 14px;
+}
+
+#root {
+	width: 500px;
+	margin: 0 auto;
+	background: #205d99;
+}
+
+.avengers {
+	list-style-type: none;
+}
+
+.avengers li {
+	border-bottom: 3px solid #79aee3;
+}
+
+#root > ul > li > label {
+	display: block;
+	font-size: 15px;
+	line-height: 55px;
+	text-align: center;
+	color: #e4eff9;
+	cursor: pointer;
+}
+
+#root > ul > li > input[type="radio"], .preview {
+	display: none;
+}
+
+#root > ul > li > input[type="radio"]:checked + label {
+	color: #aecfee;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#root > ul > li > input[type="radio"]:checked + label + .preview {
+	display: block;
+}
+
+#root > ul > li > .preview {
+	padding: 15px;
+	color: #fff;
+}
+
+#root > ul > li > .preview > img {
+	width: 200px;
+	height: 110px;
+	border: 15px solid #79aee3;
+	border-radius: 15px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
