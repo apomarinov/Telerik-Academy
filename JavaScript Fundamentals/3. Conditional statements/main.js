@@ -177,11 +177,80 @@ var Homework = new function(){
 		title: "Number as words",
 		body: function(){
 			// Write a script that converts a number in the range [0…999] to words, corresponding to its English pronunciation.
-			var a = -1, b = 4, c = 22, d = 101, e = 999;
+			var nums = [0, 9, 10, 12, 19, 25, 98, 273, 400, 501, 617, 711, 999];
+
+			for (var i = 0; i < nums.length; i++) {
+				console.log(nums[i], numberAsWord(nums[i]));
+			};
 
 			function numberAsWord(num){
-				if(num)
+				if(num < 0 || num > 999) {
+					return "invalid number";
+				}
+
 				var digits = ("" + num).split("");
+
+				if(num < 10) {
+					return self.helperFunctions.digitAsWord(num);
+				}
+
+				if(num < 100) {
+					return twoDigitNumberAsWord(num);
+				}
+
+				if(num < 1000) {
+					var tens = twoDigitNumberAsWord(parseInt(digits[1] + digits[2]));
+					return self.helperFunctions.digitAsWord(parseInt(digits[0])) + " hundred" + (tens ? " and " + tens : "");
+				}
+			}
+
+			function twoDigitNumberAsWord(num){
+				if(num == 0) {
+					return false;
+				}
+				if(num == 1) {
+					return "one";
+				}		
+
+				var digits = ("" + num).split("");
+				
+				if(num < 13) {
+					return preTeenNumbers(num);
+				}
+				
+				if(num < 20) {
+					return self.helperFunctions.digitAsWord(parseInt(digits[1])) + " teen";
+				}
+
+				if(num < 100) {
+					return preHundredNumbers(num);
+				}		
+			}
+
+			function preTeenNumbers(num) {
+				switch(num){
+					case 10: return 'ten';
+					case 11: return 'eleven';
+					case 12: return 'twelve';
+				}
+			}
+
+			function preHundredNumbers(num) {
+				var numStr = "";
+				var digits = ("" + num).split("");
+
+				switch(parseInt(digits[0])){
+					case 2: numStr += 'twenty'; break;
+					case 3: numStr += 'thirty'; break;
+					case 4: numStr += 'fourty'; break;
+					case 5: numStr += 'fifty'; break;
+					case 6: numStr += 'sixty'; break;
+					case 7: numStr += 'seventy'; break;
+					case 8: numStr += 'eighty'; break;
+					case 9: numStr += 'ninety'; break;
+				}
+
+				return numStr + " " + self.helperFunctions.digitAsWord(parseInt(digits[1]));
 			}
 		}
 	}];
