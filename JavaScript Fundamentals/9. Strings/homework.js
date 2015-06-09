@@ -64,6 +64,7 @@ hw.addProblem("Parse tags", function(){
 	console.log("Parsed Tags: ", parseTags(text, tagFunctions));
 
 	function parseTags (text, tags){
+		
 		var tagName, openingTagIndex, closingTagIndex, tagAndContents, tagContents, parsedTagContents;
 
 		for (var i = 0, len = text.length; i < len; i++) {
