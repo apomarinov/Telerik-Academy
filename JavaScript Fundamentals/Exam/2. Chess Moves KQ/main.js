@@ -6,12 +6,14 @@ function solve(params) {
 		moves = [],
 		knightMoves = {'-21':1, '-12':1, '12':1, '21':1, '2-1':1, '1-2':1, '-1-2':1, '-2-1':1};
 
+		// get the board
 	for(var i = 2; i < rows + 2; i++){
 		if(!board[i]) {
 			board.push(params[i].split(''));
 		}
 	}
 	board = board.reverse();
+	// get the moves
 	var startMove, endMove;
 	for(var i = 3 + rows; i <= 3 + rows + numberOfMoves - 1; i++){
 		startMove = params[i].split(' ');
@@ -22,13 +24,9 @@ function solve(params) {
 			end: [parseInt(endMove[1]) - 1, endMove.charCodeAt(0) - 97]
 		});
 	}
-
+	// check the moves
 	var startPiece, endPiece, startRow, startCol, endRow, endCol, deltaRow, deltaCol, moveCount;
 	for(var i = 0, len = moves.length; i < len; i++){
-		if(i !== 7) {
-			// continue;
-		}
-
 		startRow = moves[i].start[0];
 		startCol = moves[i].start[1];
 		endRow = moves[i].end[0];
@@ -36,16 +34,13 @@ function solve(params) {
 		startPiece = board[startRow][startCol];
 		endPiece = board[endRow][endCol];
 
-		if(startPiece !== "K") {
-			// continue;
-		}
-
+		// invalid start or end move
 		if(startPiece === "-" || startPiece !== "-" && (endPiece === "K" || endPiece === "Q")) {
 			console.log("no");
-			// yconsole.log("no StartEnd", i);
 			continue;
 		}
 
+		// get direction
 		deltaRow = (startRow - endRow);
 		deltaCol = (startCol - endCol);
 
@@ -61,66 +56,53 @@ function solve(params) {
 			deltaCol = -1;
 		}
 		
-		// console.log(startRow, startCol, endRow, endCol);
-		// console.log(startPiece, endPiece);
-		// console.log(deltaRow, deltaCol);
-
+		// move knight
 		if(startPiece === "K") {
+			// check if move is valid
 			if(!knightMoves.hasOwnProperty((deltaCol * (startCol - endCol)) + "" + (deltaRow * (startRow - endRow)))) {
 				console.log("no");
-				// yconsole.log("no diag", i);
 				continue;
 			}			
-
-			// if(startRow + deltaRow <= 0 || startRow + deltaRow >= board.length) {
-			// 	console.log("no row bound");
-			// }
-			// if(startCol + deltaCol <= 0 || startCol + deltaCol >= board.length) {
-			// 	console.log("no col bound");
-			// }
+			// move columns
 			var didMove = true;
 			while(startCol !== endCol) {
 				startCol += deltaCol;
 				if(board[startRow][startCol] !== "-") {
 					console.log("no");
-					// yconsole.log("no K", i);
 					didMove = false;
 					break;
 				}
 			}
 			if(didMove) {
 				console.log("yes");
-				// yconsole.log("yes K", i);
 				continue;
 			}
+			// move rows
 			while(startRow !== endRow) {
 				startRow += deltaRow;
 				if(board[startRow][startCol] !== "-") {
 					console.log("no");
-					// yconsole.log("no K", i);
 					didMove = false;
 					break;
 				}
 			}
 			if(didMove) {
 				console.log("yes");
-				// yconsole.log("yes K", i);
 			}
 		} else if (startPiece === "Q"){
 			var didMove = true;
+			// move qeen in the direction
 			while(startRow !== endRow || startCol !== endCol) {
 				startRow += deltaRow;
 				startCol += deltaCol;
 				if(board[startRow][startCol] !== "-") {
 					console.log("no");
-					// yconsole.log("no Q", i);
 					didMove = false;
 					break;
 				}
 			}
 			if(didMove) {
 				console.log("yes");
-				// yconsole.log("yes Q", i);
 			}
 		}
 	}
@@ -173,15 +155,3 @@ var tests2 = [
 for(var i = 0, len = tests.length; i < len; i++){
 	solve(tests2[i]);
 }
-
-
-	// var rows = parseInt(params[0]),
-	// 	cols = parseInt(params[1]),
-	// 	tests = parseInt(params[rows + 2]),
-	// 	knightMoves = [[-2, 1], [-1, 2], [1, 2], [2, 1], [2, -1], [1, -2], [-1, -2], [-2, -1]], 
-	// 	i, move;
-
-	// for (i = 0; i < tests; i++) {
-	// 	move = params[rows + 3 + i];
-
-	// }
