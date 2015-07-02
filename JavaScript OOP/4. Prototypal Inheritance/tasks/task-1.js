@@ -192,18 +192,6 @@ function solve() {
         return domElement;
     } ());
 
-            // var text = 'the text you SEE!',
-            //     root = Object.create(domElement).init('p'),
-            //     child1 = Object.create(domElement).init('b'),
-            //     child2 = Object.create(domElement).init('s');
-            // root.appendChild(text);
-            // root.appendChild(child1);
-            // root.appendChild(text);
-            // root.appendChild(child2);
-            // root.appendChild(text);
-            // console.log(root.innerHTML);
-            // console.log('<p>' + text + '<b></b>' + text + '<s></s>' + text + '</p>');
-
 return domElement;
 }
 
